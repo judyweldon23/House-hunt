@@ -1,86 +1,80 @@
-2026-03-31 18:38:03  WARNING   scrapers.redfin  Redfin region lookup failed for 'Brookline, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Brookline%2C+MA&v=2
-2026-03-31 18:38:03  INFO      scrapers.redfin  Redfin search: Brookline, MA  region_id=36099  region_type=6
-2026-03-31 18:38:03  INFO      scrapers.redfin  Redfin returned 146 homes for Brookline, MA
-2026-03-31 18:38:03  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 799000, 'level': 1} beds=2 baths=2.0 sqft={'value': 1039, 'level': 1} photoUrls=None
-2026-03-31 18:38:15  INFO      scrapers.zillow  Zillow search: Brookline, MA  url=https://www.zillow.com/homes/for_sale/Brookline-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:17  WARNING   scrapers.zillow  Zillow request failed for Brookline, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Brookline-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:17  INFO      scrapers.compass  Compass search: Brookline, MA  url=https://www.compass.com/homes-for-sale/brookline-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
-2026-03-31 18:38:19  WARNING   scrapers.compass  Compass: could not parse listings for Brookline, MA (possible bot block)
-2026-03-31 18:38:19  WARNING   scrapers.redfin  Redfin region lookup failed for 'Waban, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Waban%2C+MA&v=2
-2026-03-31 18:38:19  INFO      scrapers.redfin  Redfin search: Waban, MA  region_id=28762  region_type=6
-2026-03-31 18:38:19  INFO      scrapers.redfin  Redfin returned 25 homes for Waban, MA
-2026-03-31 18:38:19  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 1899000, 'level': 1} beds=5 baths=3.5 sqft={'value': 3803, 'level': 1} photoUrls=None
-2026-03-31 18:38:25  INFO      scrapers.zillow  Zillow search: Waban, MA  url=https://www.zillow.com/homes/for_sale/Newton-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:27  WARNING   scrapers.zillow  Zillow request failed for Waban, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Newton-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:27  INFO      scrapers.compass  Compass search: Waban, MA  url=https://www.compass.com/homes-for-sale/newton-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
-2026-03-31 18:38:29  WARNING   scrapers.compass  Compass: could not parse listings for Waban, MA (possible bot block)
-2026-03-31 18:38:29  WARNING   scrapers.redfin  Redfin region lookup failed for 'Wellesley, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Wellesley%2C+MA&v=2
-2026-03-31 18:38:29  INFO      scrapers.redfin  Redfin search: Wellesley, MA  region_id=36180  region_type=6
-2026-03-31 18:38:29  INFO      scrapers.redfin  Redfin returned 58 homes for Wellesley, MA
-2026-03-31 18:38:29  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 4150000, 'level': 1} beds=5 baths=3.5 sqft={'level': 1} photoUrls=None
-2026-03-31 18:38:42  INFO      scrapers.zillow  Zillow search: Wellesley, MA  url=https://www.zillow.com/homes/for_sale/Wellesley-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:43  WARNING   scrapers.zillow  Zillow request failed for Wellesley, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Wellesley-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
-2026-03-31 18:38:43  INFO      scrapers.compass  Compass search: Wellesley, MA  url=https://www.compass.com/homes-for-sale/wellesley-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
-2026-03-31 18:38:46  WARNING   scrapers.compass  Compass: could not parse listings for Wellesley, MA (possible bot block)
-2026-03-31 18:38:46  INFO      __main__  After dedup: 27 unique listings
-2026-03-31 18:38:46  INFO      commute  Checking commutes via OSRM (free, rush-hour estimate) (limit: 35 min)
-2026-03-31 18:38:46  WARNING   commute  Nominatim: no results for 'Undisclosed, Brookline, MA 02445'
-2026-03-31 18:38:46  INFO      commute  Could not determine commute for Undisclosed, Brookline, MA 02445 — keeping
-2026-03-31 18:38:53  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:38:53  INFO      commute  Could not determine commute for 140 Dudley St, Brookline, MA 02445 — keeping
-2026-03-31 18:38:53  WARNING   commute  Nominatim: no results for '34 Lagrange St, Chestnut Hill, MA 02467'
-2026-03-31 18:38:53  INFO      commute  Could not determine commute for 34 Lagrange St, Chestnut Hill, MA 02467 — keeping
-2026-03-31 18:38:54  WARNING   commute  Nominatim: no results for '1125 W Roxbury Pkwy, Chestnut Hill, MA 02467'
-2026-03-31 18:38:54  INFO      commute  Could not determine commute for 1125 W Roxbury Pkwy, Chestnut Hill, MA 02467 — keeping
-2026-03-31 18:39:00  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:00  INFO      commute  Could not determine commute for 16 York Ter, Brookline, MA 02446 — keeping
-2026-03-31 18:39:01  WARNING   commute  Nominatim: no results for '10 Hallwood Rd, Chestnut Hill, MA 02467'
-2026-03-31 18:39:01  INFO      commute  Could not determine commute for 10 Hallwood Rd, Chestnut Hill, MA 02467 — keeping
-2026-03-31 18:39:08  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:08  INFO      commute  Could not determine commute for 36 Osborne Rd, Brookline, MA 02446 — keeping
-2026-03-31 18:39:14  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:14  INFO      commute  Could not determine commute for 43 Druce St, Brookline, MA 02445 — keeping
-2026-03-31 18:39:21  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:21  INFO      commute  Could not determine commute for 62 Fuller St, Brookline, MA 02446 — keeping
-2026-03-31 18:39:28  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:28  INFO      commute  Could not determine commute for 84 Winthrop Rd, Brookline, MA 02445 — keeping
-2026-03-31 18:39:35  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:35  INFO      commute  Could not determine commute for 447 Waban Ave, Waban, MA 02468 — keeping
-2026-03-31 18:39:41  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:41  INFO      commute  Could not determine commute for 110 Avalon Rd, Waban, MA 02468 — keeping
-2026-03-31 18:39:48  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:48  INFO      commute  Could not determine commute for 18 Moffat Rd, Waban, MA 02468 — keeping
-2026-03-31 18:39:55  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:39:55  INFO      commute  Could not determine commute for 1230 Commonwealth Ave, West Newton, MA 02465 — keeping
-2026-03-31 18:40:02  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:02  INFO      commute  Could not determine commute for 16 Josselyn Pl, Newton Highlands, MA 02461 — keeping
-2026-03-31 18:40:08  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:08  INFO      commute  Could not determine commute for 8 Tennyson Rd, Wellesley, MA 02481 — keeping
-2026-03-31 18:40:15  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:15  INFO      commute  Could not determine commute for 345 Linden St, Wellesley, MA 02481 — keeping
-2026-03-31 18:40:22  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:22  INFO      commute  Could not determine commute for 11 Fisher Ave, Wellesley, MA 02482 — keeping
-2026-03-31 18:40:29  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:29  INFO      commute  Could not determine commute for 25 Longmeadow Rd, Wellesley, MA 02482 — keeping
-2026-03-31 18:40:35  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:35  INFO      commute  Could not determine commute for 7 Bemis Rd, Wellesley, MA 02481 — keeping
-2026-03-31 18:40:43  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:43  INFO      commute  Could not determine commute for 265 Weston Rd, Wellesley, MA 02482 — keeping
-2026-03-31 18:40:49  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:49  INFO      commute  Could not determine commute for 16 Oak St, Wellesley, MA 02482 — keeping
-2026-03-31 18:40:56  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:40:56  INFO      commute  Could not determine commute for 23 Pilgrim Rd, Wellesley, MA 02481 — keeping
-2026-03-31 18:41:03  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:41:03  INFO      commute  Could not determine commute for 8 Oakdale Ave, Wellesley, MA 02482 — keeping
-2026-03-31 18:41:10  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:41:10  INFO      commute  Could not determine commute for 365 Worcester St, Wellesley, MA 02481 — keeping
-2026-03-31 18:41:16  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:41:16  INFO      commute  Could not determine commute for 38 Parker Rd, Wellesley, MA 02482 — keeping
-2026-03-31 18:41:23  WARNING   commute  OSRM routing failed: HTTPConnectionPool(host='router.project-osrm.org', port=80): Read timed out. (read timeout=5)
-2026-03-31 18:41:23  INFO      commute  Could not determine commute for 42 Edmunds Rd, Wellesley, MA 02481 — keeping
-2026-03-31 18:41:24  INFO      __main__  27 / 27 listings pass commute filter
-2026-03-31 18:41:24  INFO      __main__  Wrote 27 listings to docs/listings.json
-2026-03-31 18:41:24  INFO      database  Upserted 27 listings into database
-2026-03-31 18:41:24  ERROR     emailer  Failed to send email: please run connect() first
-2026-03-31 18:41:24  ERROR     __main__  Email failed — listings NOT marked seen (will retry next run).
+2026-03-31 18:53:11  WARNING   scrapers.redfin  Redfin region lookup failed for 'Brookline, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Brookline%2C+MA&v=2
+2026-03-31 18:53:11  INFO      scrapers.redfin  Redfin search: Brookline, MA  region_id=36099  region_type=6
+2026-03-31 18:53:11  INFO      scrapers.redfin  Redfin returned 146 homes for Brookline, MA
+2026-03-31 18:53:11  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 799000, 'level': 1} beds=2 baths=2.0 sqft={'value': 1039, 'level': 1} photoUrls=None
+2026-03-31 18:53:12  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/Undisclosed-address-02445/home/11507392
+2026-03-31 18:53:13  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/140-Dudley-St-02445/home/11492872
+2026-03-31 18:53:13  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Chestnut-Hill/34-Lagrange-St-02467/home/11497711
+2026-03-31 18:53:14  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Chestnut-Hill/1125-W-Roxbury-Pkwy-02467/home/11495183
+2026-03-31 18:53:15  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/16-York-Ter-02446/home/11453556
+2026-03-31 18:53:15  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Chestnut-Hill/10-Hallwood-Rd-02467/home/11495037
+2026-03-31 18:53:16  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/36-Osborne-Rd-02446/home/11448388
+2026-03-31 18:53:17  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/43-Druce-St-02445/home/11482774
+2026-03-31 18:53:17  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/62-Fuller-St-02446/home/11449471
+2026-03-31 18:53:18  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/36-Osborne-Rd-02446/unit-1/home/200665688
+2026-03-31 18:53:19  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Brookline/84-Winthrop-Rd-02445/unit-1/home/196296414
+2026-03-31 18:53:19  INFO      scrapers.zillow  Zillow search: Brookline, MA  url=https://www.zillow.com/homes/for_sale/Brookline-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:21  WARNING   scrapers.zillow  Zillow request failed for Brookline, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Brookline-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:21  INFO      scrapers.compass  Compass search: Brookline, MA  url=https://www.compass.com/homes-for-sale/brookline-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
+2026-03-31 18:53:23  WARNING   scrapers.compass  Compass: could not parse listings for Brookline, MA (possible bot block)
+2026-03-31 18:53:23  WARNING   scrapers.redfin  Redfin region lookup failed for 'Waban, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Waban%2C+MA&v=2
+2026-03-31 18:53:23  INFO      scrapers.redfin  Redfin search: Waban, MA  region_id=28762  region_type=6
+2026-03-31 18:53:24  INFO      scrapers.redfin  Redfin returned 25 homes for Waban, MA
+2026-03-31 18:53:24  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 1899000, 'level': 1} beds=5 baths=3.5 sqft={'value': 3803, 'level': 1} photoUrls=None
+2026-03-31 18:53:24  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Waban/447-Waban-Ave-02468/home/11437995
+2026-03-31 18:53:25  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Waban/110-Avalon-Rd-02468/home/11451419
+2026-03-31 18:53:26  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Waban/18-Moffat-Rd-02468/home/11452404
+2026-03-31 18:53:26  WARNING   scrapers.redfin  Photo page returned 405 for /MA/West-Newton/1230-Commonwealth-Ave-02465/home/11450112
+2026-03-31 18:53:27  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Newton-Highlands/16-Josselyn-Pl-02461/unit-16/home/179809342
+2026-03-31 18:53:27  INFO      scrapers.zillow  Zillow search: Waban, MA  url=https://www.zillow.com/homes/for_sale/Newton-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:28  WARNING   scrapers.zillow  Zillow request failed for Waban, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Newton-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:28  INFO      scrapers.compass  Compass search: Waban, MA  url=https://www.compass.com/homes-for-sale/newton-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
+2026-03-31 18:53:31  WARNING   scrapers.compass  Compass: could not parse listings for Waban, MA (possible bot block)
+2026-03-31 18:53:31  WARNING   scrapers.redfin  Redfin region lookup failed for 'Wellesley, MA': 404 Client Error: Not Found for url: https://www.redfin.com/stingray/api/search/autocomplete?location=Wellesley%2C+MA&v=2
+2026-03-31 18:53:31  INFO      scrapers.redfin  Redfin search: Wellesley, MA  region_id=36180  region_type=6
+2026-03-31 18:53:31  INFO      scrapers.redfin  Redfin returned 58 homes for Wellesley, MA
+2026-03-31 18:53:31  INFO      scrapers.redfin  Redfin sample home fields: price={'value': 4150000, 'level': 1} beds=5 baths=3.5 sqft={'level': 1} photoUrls=None
+2026-03-31 18:53:32  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/8-Tennyson-Rd-02481/home/8968591
+2026-03-31 18:53:33  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/345-Linden-St-02481/home/8979761
+2026-03-31 18:53:34  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/11-Fisher-Ave-02482/home/56792042
+2026-03-31 18:53:34  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/25-Longmeadow-Rd-02482/home/8984039
+2026-03-31 18:53:35  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/7-Bemis-Rd-02481/home/8974602
+2026-03-31 18:53:35  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/265-Weston-Rd-02482/home/8995275
+2026-03-31 18:53:36  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/16-Oak-St-02482/home/8985709
+2026-03-31 18:53:36  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/23-Pilgrim-Rd-02481/home/11831692
+2026-03-31 18:53:37  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/8-Oakdale-Ave-02482/home/8999649
+2026-03-31 18:53:38  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/365-Worcester-St-02481/home/178376537
+2026-03-31 18:53:38  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/38-Parker-Rd-02482/home/11498947
+2026-03-31 18:53:39  WARNING   scrapers.redfin  Photo page returned 405 for /MA/Wellesley/42-Edmunds-Rd-02481/home/8979005
+2026-03-31 18:53:39  INFO      scrapers.zillow  Zillow search: Wellesley, MA  url=https://www.zillow.com/homes/for_sale/Wellesley-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:41  WARNING   scrapers.zillow  Zillow request failed for Wellesley, MA: 403 Client Error: Forbidden for url: https://www.zillow.com/homes/for_sale/Wellesley-MA_rb/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A2200000%2C%22max%22%3A3500000%7D%2C%22beds%22%3A%7B%22min%22%3A4%7D%2C%22baths%22%3A%7B%22min%22%3A3%7D%2C%22sqft%22%3A%7B%22min%22%3A3500%7D%2C%22isForSaleByAgent%22%3A%7B%22value%22%3Atrue%7D%2C%22isForSaleByOwner%22%3A%7B%22value%22%3Afalse%7D%2C%22isNewConstruction%22%3A%7B%22value%22%3Afalse%7D%2C%22isComingSoon%22%3A%7B%22value%22%3Afalse%7D%2C%22isAuction%22%3A%7B%22value%22%3Afalse%7D%2C%22isForSaleForeclosure%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D
+2026-03-31 18:53:41  INFO      scrapers.compass  Compass search: Wellesley, MA  url=https://www.compass.com/homes-for-sale/wellesley-ma/price-2200000,3500000/beds-4+/baths-3+/sqft-3500+/
+2026-03-31 18:53:43  WARNING   scrapers.compass  Compass: could not parse listings for Wellesley, MA (possible bot block)
+2026-03-31 18:53:43  INFO      __main__  After dedup: 27 unique listings
+2026-03-31 18:53:43  INFO      commute  Checking commutes via Haversine (free, rush-hour estimate) (limit: 35 min)
+2026-03-31 18:53:44  WARNING   commute  Nominatim: no results for 'Undisclosed, Brookline, MA 02445'
+2026-03-31 18:53:44  INFO      commute  Could not determine commute for Undisclosed, Brookline, MA 02445 — keeping
+2026-03-31 18:53:47  WARNING   commute  Nominatim: no results for '34 Lagrange St, Chestnut Hill, MA 02467'
+2026-03-31 18:53:47  INFO      commute  Could not determine commute for 34 Lagrange St, Chestnut Hill, MA 02467 — keeping
+2026-03-31 18:53:48  WARNING   commute  Nominatim: no results for '1125 W Roxbury Pkwy, Chestnut Hill, MA 02467'
+2026-03-31 18:53:48  INFO      commute  Could not determine commute for 1125 W Roxbury Pkwy, Chestnut Hill, MA 02467 — keeping
+2026-03-31 18:53:52  WARNING   commute  Nominatim: no results for '10 Hallwood Rd, Chestnut Hill, MA 02467'
+2026-03-31 18:53:52  INFO      commute  Could not determine commute for 10 Hallwood Rd, Chestnut Hill, MA 02467 — keeping
+2026-03-31 18:54:12  INFO      commute  Filtered: 8 Tennyson Rd, Wellesley, MA 02481  (39 min est. > 35 min limit)
+2026-03-31 18:54:15  INFO      commute  Filtered: 345 Linden St, Wellesley, MA 02481  (44 min est. > 35 min limit)
+2026-03-31 18:54:17  INFO      commute  Filtered: 11 Fisher Ave, Wellesley, MA 02482  (50 min est. > 35 min limit)
+2026-03-31 18:54:19  INFO      commute  Filtered: 25 Longmeadow Rd, Wellesley, MA 02482  (48 min est. > 35 min limit)
+2026-03-31 18:54:21  INFO      commute  Filtered: 7 Bemis Rd, Wellesley, MA 02481  (42 min est. > 35 min limit)
+2026-03-31 18:54:24  INFO      commute  Filtered: 265 Weston Rd, Wellesley, MA 02482  (50 min est. > 35 min limit)
+2026-03-31 18:54:26  INFO      commute  Filtered: 16 Oak St, Wellesley, MA 02482  (47 min est. > 35 min limit)
+2026-03-31 18:54:28  INFO      commute  Filtered: 23 Pilgrim Rd, Wellesley, MA 02481  (50 min est. > 35 min limit)
+2026-03-31 18:54:30  INFO      commute  Filtered: 8 Oakdale Ave, Wellesley, MA 02482  (52 min est. > 35 min limit)
+2026-03-31 18:54:32  INFO      commute  Filtered: 365 Worcester St, Wellesley, MA 02481  (40 min est. > 35 min limit)
+2026-03-31 18:54:35  INFO      commute  Filtered: 38 Parker Rd, Wellesley, MA 02482  (51 min est. > 35 min limit)
+2026-03-31 18:54:37  INFO      commute  Filtered: 42 Edmunds Rd, Wellesley, MA 02481  (44 min est. > 35 min limit)
+2026-03-31 18:54:37  INFO      __main__  15 / 27 listings pass commute filter
+2026-03-31 18:54:37  INFO      __main__  Wrote 15 listings to docs/listings.json
+2026-03-31 18:54:37  INFO      database  Upserted 15 listings into database
+2026-03-31 18:54:37  ERROR     emailer  Failed to send email: please run connect() first
+2026-03-31 18:54:37  ERROR     __main__  Email failed — listings NOT marked seen (will retry next run).
 --- exit code: 0 ---
