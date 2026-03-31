@@ -19,9 +19,9 @@ SEARCH_CRITERIA = {
 # region_type: 6=city, 2=neighborhood
 # region_ids looked up at runtime via Redfin autocomplete; these are fallbacks.
 LOCATIONS = [
-    {"name": "Brookline, MA",  "redfin_fallback_id": "2544",  "redfin_region_type": 6},
-    {"name": "Waban, MA",      "redfin_fallback_id": "6237",  "redfin_region_type": 2},
-    {"name": "Wellesley, MA",  "redfin_fallback_id": "20070", "redfin_region_type": 6},
+    {"name": "Brookline, MA",  "redfin_fallback_id": "36099", "redfin_region_type": 6},
+    {"name": "Waban, MA",      "redfin_fallback_id": "28762", "redfin_region_type": 6},
+    {"name": "Wellesley, MA",  "redfin_fallback_id": "36180", "redfin_region_type": 6},
 ]
 
 # ── Email ──────────────────────────────────────────────────────────────────────
