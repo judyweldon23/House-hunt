@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a3a5c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="House Hunt" />
+  <link rel="apple-touch-icon" href="/icon-192.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>House Hunt</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:   #1a3a5c;
+      --gold:   #e67e22;
+      --green:  #2e7d32;
+      --bg:     #f0f2f5;
+      --card:   #ffffff;
+      --text:   #1a1a1a;
+      --muted:  #666;
+      --border: #e0e4ea;
+      --safe-top: env(safe-area-inset-top, 0px);
+    }
+
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+           background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* ── Header ── */
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: calc(var(--safe-top) + 14px) 16px 14px;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    }
+    .header-inner { display: flex; align-items: center; gap: 10px; max-width: 700px; margin: 0 auto; }
+    .header-logo  { font-size: 26px; }
+    .header-text  { flex: 1; }
+    .header-title { font-size: 18px; font-weight: 700; line-height: 1.2; }
+    .header-sub   { font-size: 12px; opacity: .75; margin-top: 2px; }
+    .refresh-btn  {
+      background: rgba(255,255,255,.15); border: none; color: #fff;
+      border-radius: 8px; padding: 8px 10px; font-size: 18px; cursor: pointer;
+      transition: background .2s;
+    }
+    .refresh-btn:hover { background: rgba(255,255,255,.25); }
+    .refresh-btn.spinning { animation: spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Filter bar ── */
+    .filter-bar {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 10px 16px; overflow-x: auto; white-space: nowrap;
+      position: sticky; top: 58px; z-index: 90;
+    }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .chip {
+      display: inline-block; padding: 6px 14px; border-radius: 20px;
+      font-size: 13px; font-weight: 600; cursor: pointer; margin-right: 8px;
+      border: 2px solid var(--border); background: #fff; color: var(--muted);
+      transition: all .15s;
+    }
+    .chip.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .chip.priority-chip.active { background: var(--gold); border-color: var(--gold); }
+
+    /* ── Stats bar ── */
+    .stats-bar {
+      max-width: 700px; margin: 12px auto 0; padding: 0 16px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .stats-count { font-size: 14px; color: var(--muted); }
+    .last-updated { font-size: 12px; color: var(--muted); }
+    .auto-refresh-dot {
+      display: inline-block; width: 8px; height: 8px;
+      background: #4caf50; border-radius: 50%; margin-right: 5px;
+      animation: pulse 2s ease infinite;
+    }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+    /* ── Listing grid ── */
+    .listings-grid {
+      max-width: 700px; margin: 12px auto 32px; padding: 0 16px;
+      display: grid; gap: 16px;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--card); border-radius: 14px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.08); overflow: hidden;
+      transition: box-shadow .2s;
+    }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.14); }
+    .card.priority { border-top: 4px solid var(--gold); }
+
+    .card-img { width: 100%; height: 220px; object-fit: cover; display: block; }
+    .card-no-img {
+      width: 100%; height: 140px; background: #dde3eb;
+      display: flex; align-items: center; justify-content: center;
+      color: #aaa; font-size: 36px;
+    }
+
+    .card-body { padding: 14px 16px 16px; }
+
+    .badges { margin-bottom: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .badge {
+      display: inline-block; font-size: 11px; font-weight: 700;
+      padding: 3px 9px; border-radius: 12px; letter-spacing: .3px;
+    }
+    .badge-5br     { background: #fff3cd; color: #856404; }
+    .badge-office  { background: #d1ecf1; color: #0c5460; }
+    .badge-new     { background: #d4edda; color: #155724; }
+
+    .card-price   { font-size: 24px; font-weight: 800; color: var(--navy); line-height: 1; }
+    .card-address { font-size: 13px; color: var(--muted); margin: 4px 0 12px; }
+
+    .card-stats { display: flex; gap: 0; margin-bottom: 12px; }
+    .stat {
+      flex: 1; text-align: center; padding: 8px 4px;
+      border-right: 1px solid var(--border);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-val   { font-size: 18px; font-weight: 700; color: var(--text); }
+    .stat-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
+
+    .commute-row {
+      background: #e8f5e9; color: var(--green); font-size: 12px; font-weight: 600;
+      padding: 7px 10px; border-radius: 8px; margin-bottom: 12px;
+    }
+    .commute-row.unknown { background: #f5f5f5; color: #888; }
+
+    .card-links { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-block; background: var(--navy); color: #fff;
+      padding: 9px 18px; border-radius: 8px; text-decoration: none;
+      font-size: 14px; font-weight: 700; transition: background .15s;
+    }
+    .btn-primary:hover { background: #254d7a; }
+    .alt-links { font-size: 12px; color: var(--muted); }
+    .alt-link { color: var(--navy); text-decoration: none; margin-right: 8px; }
+    .alt-link:hover { text-decoration: underline; }
+
+    /* ── Empty / loading states ── */
+    .state-box {
+      text-align: center; padding: 60px 20px; color: var(--muted);
+    }
+    .state-box .icon { font-size: 52px; margin-bottom: 14px; }
+    .state-box h2    { font-size: 20px; color: var(--text); margin-bottom: 8px; }
+    .state-box p     { font-size: 14px; line-height: 1.6; }
+
+    /* ── Install banner ── */
+    #install-banner {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0;
+      background: var(--navy); color: #fff; padding: 14px 16px;
+      align-items: center; gap: 12px; z-index: 200;
+      box-shadow: 0 -4px 16px rgba(0,0,0,.2);
+    }
+    #install-banner.visible { display: flex; }
+    #install-banner p  { flex: 1; font-size: 14px; }
+    #install-btn {
+      background: var(--gold); border: none; color: #fff;
+      padding: 9px 16px; border-radius: 8px; font-weight: 700;
+      font-size: 14px; cursor: pointer; white-space: nowrap;
+    }
+    #dismiss-install { background: none; border: none; color: rgba(255,255,255,.6);
+                       font-size: 22px; cursor: pointer; line-height: 1; }
+
+    @media (min-width: 500px) {
+      .listings-grid { grid-template-columns: repeat(2, 1fr); }
+      .card-img { height: 180px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <span class="header-logo">&#127968;</span>
+    <div class="header-text">
+      <div class="header-title">House Hunt</div>
+      <div class="header-sub">Brookline &bull; Waban &bull; Wellesley, MA</div>
+    </div>
+    <button class="refresh-btn" id="refresh-btn" title="Refresh listings" aria-label="Refresh">&#8635;</button>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <span class="chip active" data-filter="all">All Listings</span>
+  <span class="chip priority-chip" data-filter="priority">&#11088; Priority</span>
+  <span class="chip" data-filter="5br">5+ Bedrooms</span>
+  <span class="chip" data-filter="office">4 BR + Office</span>
+  <span class="chip" data-filter="under3m">Under $3M</span>
+</div>
+
+<div class="stats-bar">
+  <span class="stats-count" id="stats-count"></span>
+  <span class="last-updated" id="last-updated">
+    <span class="auto-refresh-dot"></span>Auto-refreshes every 5 min
+  </span>
+</div>
+
+<div class="listings-grid" id="listings-grid">
+  <div class="state-box" style="grid-column:1/-1">
+    <div class="icon">&#8987;</div>
+    <h2>Loading listings&hellip;</h2>
+  </div>
+</div>
+
+<!-- PWA install banner -->
+<div id="install-banner">
+  <p>&#128241; Add House Hunt to your home screen for quick access!</p>
+  <button id="install-btn">Install</button>
+  <button id="dismiss-install">&#215;</button>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let allListings   = [];
+let activeFilter  = "all";
+let deferredPrompt = null;
+let refreshTimer   = null;
+
+// ── Fetch + render ─────────────────────────────────────────────────────────
+async function fetchListings() {
+  const btn = document.getElementById("refresh-btn");
+  btn.classList.add("spinning");
+  try {
+    const [listResp, statsResp] = await Promise.all([
+      fetch("/api/listings"),
+      fetch("/api/stats"),
+    ]);
+    allListings = await listResp.json();
+    const stats = await statsResp.json();
+    updateLastUpdated(stats.last_updated);
+    renderListings();
+  } catch (err) {
+    console.error("Fetch error:", err);
+    showError();
+  } finally {
+    btn.classList.remove("spinning");
+  }
+}
+
+function updateLastUpdated(iso) {
+  if (!iso) return;
+  const d = new Date(iso);
+  const rel = timeAgo(d);
+  document.getElementById("last-updated").innerHTML =
+    `<span class="auto-refresh-dot"></span>Scraper last ran ${rel}`;
+}
+
+function timeAgo(date) {
+  const diffMs  = Date.now() - date.getTime();
+  const diffMin = Math.round(diffMs / 60000);
+  if (diffMin < 2)  return "just now";
+  if (diffMin < 60) return `${diffMin}m ago`;
+  const h = Math.round(diffMin / 60);
+  if (h < 24) return `${h}h ago`;
+  return `${Math.round(h / 24)}d ago`;
+}
+
+// ── Filter ─────────────────────────────────────────────────────────────────
+function filterListings() {
+  switch (activeFilter) {
+    case "priority": return allListings.filter(l => l.priority_score > 0);
+    case "5br":      return allListings.filter(l => l.beds >= 5);
+    case "office":   return allListings.filter(l => l.beds === 4 && l.has_office);
+    case "under3m":  return allListings.filter(l => l.price < 3_000_000);
+    default:         return allListings;
+  }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────
+function renderListings() {
+  const grid = document.getElementById("listings-grid");
+  const visible = filterListings();
+
+  document.getElementById("stats-count").textContent =
+    `${visible.length} listing${visible.length !== 1 ? "s" : ""}` +
+    (allListings.length !== visible.length ? ` of ${allListings.length}` : "");
+
+  if (!visible.length) {
+    grid.innerHTML = `
+      <div class="state-box" style="grid-column:1/-1">
+        <div class="icon">&#128270;</div>
+        <h2>No listings</h2>
+        <p>No listings match this filter yet.<br>Try <strong>All Listings</strong> or check back after the next scrape.</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = visible.map(cardHTML).join("");
+}
+
+function fmt(n)    { return Number(n).toLocaleString(); }
+function price(n)  { return "$" + fmt(n); }
+function baths(b)  { return parseFloat(b).toString().replace(/\.0$/, ""); }
+
+function cardHTML(l) {
+  const isPriority = l.priority_score > 0;
+
+  // Image
+  const imgBlock = l.image_url
+    ? `<img class="card-img" src="${esc(l.image_url)}" alt="${esc(l.address)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="card-no-img" style="display:none">&#127968;</div>`
+    : `<div class="card-no-img">&#127968;</div>`;
+
+  // Badges
+  let badges = "";
+  if (l.beds >= 5)            badges += `<span class="badge badge-5br">&#11088; 5+ Bedrooms</span>`;
+  if (l.has_office)           badges += `<span class="badge badge-office">&#128188; 4 BR + Office</span>`;
+
+  // Commute
+  let commuteClass = "commute-row";
+  let commuteText  = "&#128663; Commute: not checked";
+  if (l.commute_minutes !== null && l.commute_minutes !== undefined) {
+    const est = l.commute_is_estimate ? " (rush-hour est.)" : "";
+    commuteText = `&#128663; ${l.commute_minutes} min to 100 Clarendon St (8 am Wed)${est}`;
+  } else {
+    commuteClass += " unknown";
+  }
+
+  // Links
+  const preferred_url    = l.redfin_url  || l.compass_url || l.zillow_url || "#";
+  const preferred_label  = l.redfin_url  ? "Redfin"
+                         : l.compass_url ? "Compass"
+                         : l.zillow_url  ? "Zillow"
+                         : "View";
+  let altLinks = "";
+  if (l.redfin_url  && preferred_label !== "Redfin")   altLinks += `<a class="alt-link" href="${esc(l.redfin_url)}"  target="_blank">Redfin</a>`;
+  if (l.compass_url && preferred_label !== "Compass")  altLinks += `<a class="alt-link" href="${esc(l.compass_url)}" target="_blank">Compass</a>`;
+  if (l.zillow_url  && preferred_label !== "Zillow")   altLinks += `<a class="alt-link" href="${esc(l.zillow_url)}"  target="_blank">Zillow</a>`;
+  const altSection = altLinks ? `<span class="alt-links">Also: ${altLinks}</span>` : "";
+
+  return `
+  <div class="card${isPriority ? " priority" : ""}">
+    ${imgBlock}
+    <div class="card-body">
+      ${badges ? `<div class="badges">${badges}</div>` : ""}
+      <div class="card-price">${price(l.price)}</div>
+      <div class="card-address">${esc(l.address)}</div>
+      <div class="card-stats">
+        <div class="stat"><div class="stat-val">${l.beds}</div><div class="stat-label">Beds</div></div>
+        <div class="stat"><div class="stat-val">${baths(l.baths)}</div><div class="stat-label">Baths</div></div>
+        <div class="stat"><div class="stat-val">${fmt(l.sqft)}</div><div class="stat-label">Sq&nbsp;Ft</div></div>
+      </div>
+      <div class="${commuteClass}">${commuteText}</div>
+      <div class="card-links">
+        <a class="btn-primary" href="${esc(preferred_url)}" target="_blank">View on ${preferred_label}</a>
+        ${altSection}
+      </div>
+    </div>
+  </div>`;
+}
+
+function esc(s) {
+  if (!s) return "";
+  return String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+}
+
+function showError() {
+  document.getElementById("listings-grid").innerHTML = `
+    <div class="state-box" style="grid-column:1/-1">
+      <div class="icon">&#9888;</div>
+      <h2>Could not load listings</h2>
+      <p>Make sure the server is running, then tap Refresh.</p>
+    </div>`;
+}
+
+// ── Filter chips ───────────────────────────────────────────────────────────
+document.querySelectorAll(".chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    activeFilter = chip.dataset.filter;
+    renderListings();
+  });
+});
+
+// ── Manual refresh ─────────────────────────────────────────────────────────
+document.getElementById("refresh-btn").addEventListener("click", fetchListings);
+
+// ── Auto-refresh every 5 minutes ──────────────────────────────────────────
+function scheduleRefresh() {
+  clearTimeout(refreshTimer);
+  refreshTimer = setTimeout(() => { fetchListings(); scheduleRefresh(); }, 5 * 60 * 1000);
+}
+
+// ── PWA install prompt ────────────────────────────────────────────────────
+window.addEventListener("beforeinstallprompt", e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  if (!localStorage.getItem("install-dismissed")) {
+    document.getElementById("install-banner").classList.add("visible");
+  }
+});
+
+document.getElementById("install-btn").addEventListener("click", async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === "accepted") localStorage.setItem("install-dismissed", "1");
+    deferredPrompt = null;
+  }
+  document.getElementById("install-banner").classList.remove("visible");
+});
+
+document.getElementById("dismiss-install").addEventListener("click", () => {
+  localStorage.setItem("install-dismissed", "1");
+  document.getElementById("install-banner").classList.remove("visible");
+});
+
+// ── Service worker registration ───────────────────────────────────────────
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js").catch(console.warn);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────
+fetchListings();
+scheduleRefresh();
+</script>
+</body>
+</html>

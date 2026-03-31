@@ -19,8 +19,9 @@ EASTERN = pytz.timezone("America/New_York")
 
 def _commute_text(listing: Listing) -> str:
     if listing.commute_minutes is None:
-        return "Commute: not checked"
-    return f"&#128663; {listing.commute_minutes} min to 100 Clarendon St (8&nbsp;am&nbsp;Wed)"
+        return "&#128663; Commute: could not determine"
+    est = "&nbsp;(rush-hour&nbsp;est.)" if listing.commute_is_estimate else ""
+    return f"&#128663; {listing.commute_minutes}&nbsp;min to 100 Clarendon St (8&nbsp;am&nbsp;Wed){est}"
 
 
 def _priority_badge(listing: Listing) -> str:

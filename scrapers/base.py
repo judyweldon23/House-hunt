@@ -16,6 +16,7 @@ class Listing:
     zillow_url: Optional[str] = None
     compass_url: Optional[str] = None
     commute_minutes: Optional[int] = None
+    commute_is_estimate: bool = False   # True when OSRM is used instead of Google Maps
     has_office: bool = False
     source: str = ""
 

@@ -29,6 +29,12 @@ def _save(state: dict) -> None:
         json.dump(state, f, indent=2)
 
 
+def is_first_run() -> bool:
+    """True if no listings have ever been sent (fresh install or reset state)."""
+    state = _load()
+    return not bool(state.get("seen_ids"))
+
+
 def filter_new_listings(listings: List[Listing]) -> List[Listing]:
     """Return only listings whose IDs haven't been seen before."""
     state = _load()
