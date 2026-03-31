@@ -96,31 +96,22 @@ def _listing_to_dict(l: Listing, now: str) -> dict:
 
 def export_web_json(listings: List[Listing]) -> None:
     """
-    Merge `listings` into web/listings.json, accumulating across runs.
-    The JSON file is the data source for the GitHub Pages website.
+    Replace docs/listings.json with the full current set of matching listings.
+    Called with ALL passing listings every run so the web page always reflects
+    what is live on the market right now (sold/removed listings disappear automatically).
     """
-    try:
-        with open(WEB_JSON) as f:
-            existing = {d["id"]: d for d in json.load(f).get("listings", [])}
-    except (FileNotFoundError, json.JSONDecodeError, KeyError):
-        existing = {}
-
     now = datetime.now(timezone.utc).isoformat()
-    for l in listings:
-        existing[l.id] = _listing_to_dict(l, now)
-
     sorted_data = sorted(
-        existing.values(),
+        [_listing_to_dict(l, now) for l in listings],
         key=lambda x: (-x.get("priority_score", 0), x.get("price", 0)),
     )
-
     os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
     with open(WEB_JSON, "w") as f:
         json.dump(
             {"listings": sorted_data, "last_updated": now, "total": len(sorted_data)},
             f, indent=2,
         )
-    logger.info("Wrote %d total listings to web/listings.json", len(sorted_data))
+    logger.info("Wrote %d listings to docs/listings.json", len(sorted_data))
 
 
 # ── Main run ──────────────────────────────────────────────────────────────────
@@ -160,45 +151,34 @@ def run() -> None:
 
     unique_listings = deduplicate(all_listings)
 
-    # ── Decide what to email ──────────────────────────────────────────────────
-    first = is_first_run()
-    if first:
-        logger.info("First run — emailing ALL %d current listings", len(unique_listings))
-        to_check = unique_listings
-    else:
-        to_check = filter_new_listings(unique_listings)
-        if not to_check:
-            logger.info("No new listings — skipping email.")
-            database.upsert_listings(unique_listings)
-            export_web_json(unique_listings)
-            return
-
-    # ── Commute filter ────────────────────────────────────────────────────────
-    passing = check_commutes(
-        to_check,
+    # ── Commute filter — run against ALL listings every time ──────────────────
+    # The web page must always show the complete current picture, so we check
+    # commutes for every listing on every run (OSRM is free, ~0.5s each).
+    all_passing = check_commutes(
+        unique_listings,
         api_key=GOOGLE_MAPS_API_KEY,
         max_minutes=criteria["max_commute_minutes"],
     )
-    logger.info("%d listings pass commute filter", len(passing))
+    logger.info("%d / %d listings pass commute filter", len(all_passing), len(unique_listings))
 
-    if not passing:
-        logger.info("All listings filtered by commute — skipping email.")
-        mark_seen(to_check)
-        database.upsert_listings(unique_listings)
-        export_web_json(unique_listings)
+    # ── Always persist the full current set ───────────────────────────────────
+    export_web_json(all_passing)      # GitHub Pages — replaces previous snapshot
+    database.upsert_listings(all_passing)
+
+    # ── Email: first run = everything; subsequent runs = new listings only ─────
+    first = is_first_run()
+    to_email = all_passing if first else filter_new_listings(all_passing)
+
+    if not to_email:
+        logger.info("No new listings — skipping email.")
         return
 
-    # ── Email ─────────────────────────────────────────────────────────────────
-    ok = send_email(passing, EMAIL_CONFIG)
+    ok = send_email(to_email, EMAIL_CONFIG)
     if ok:
-        mark_seen(passing)
-        logger.info("Email sent with %d listings.", len(passing))
+        mark_seen(to_email)
+        logger.info("Email sent with %d listing(s).", len(to_email))
     else:
         logger.error("Email failed — listings NOT marked seen (will retry next run).")
-
-    # ── Persist (always) ──────────────────────────────────────────────────────
-    database.upsert_listings(passing)
-    export_web_json(passing)
 
 
 if __name__ == "__main__":

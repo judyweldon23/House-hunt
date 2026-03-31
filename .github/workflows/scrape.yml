@@ -5,6 +5,9 @@ on:
     # Every other day at 9 am Eastern (13:00 UTC standard / 14:00 UTC daylight)
     - cron: '0 13 */2 * *'
   workflow_dispatch:   # "Run workflow" button in GitHub Actions UI for on-demand runs
+  push:
+    branches: [claude/real-estate-scraper-LTwDG]
+    paths: ['main.py', 'scrapers/**', 'commute.py', 'config.py']
 
 permissions:
   contents: write   # needed to commit listings data back to the repo
