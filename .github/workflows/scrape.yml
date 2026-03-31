@@ -62,14 +62,18 @@ jobs:
           SMTP_USER:       ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD:   ${{ secrets.SMTP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-        run: python -u main.py    # -u = unbuffered so logs appear immediately
+        run: |
+          python -u main.py 2>&1 | tee data/last_run.log
+          EXIT_CODE=${PIPESTATUS[0]}
+          echo "--- exit code: $EXIT_CODE ---" >> data/last_run.log
+          exit $EXIT_CODE
 
       # ── Commit updated data back to the repo ──────────────────────────────────
       - name: Commit updated listings data
         run: |
           git config user.name  "house-hunt-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/listings.json data/seen_listings.json
+          git add docs/listings.json data/seen_listings.json data/last_run.log
           git diff --staged --quiet || (
             git commit -m "chore: listings update $(date -u '+%Y-%m-%d')" &&
             git push
