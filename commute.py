@@ -6,13 +6,14 @@ Primary (if GOOGLE_MAPS_API_KEY is set):
 
 Automatic fallback — zero cost, no signup, no key:
   • Nominatim (OpenStreetMap) for geocoding
-  • OSRM public server for driving-time routing
-  • 1.35× rush-hour multiplier to model Boston 8 am traffic
+  • Haversine straight-line distance → driving-time estimate
+    (road factor 1.4× + Boston 8 am rush-hour factor 1.35×)
 
 Both paths check the driving time at 8:00 AM on the next Wednesday.
 """
 import datetime
 import logging
+import math
 import time
 from typing import Optional
 
@@ -28,12 +29,15 @@ DESTINATION = "100 Clarendon St, Boston, MA 02116"
 DEST_LAT = 42.34937
 DEST_LON = -71.07438
 
-# Rush-hour traffic multiplier for the OSRM free-flow estimate.
-# OSRM gives drive time with no traffic; Boston 8 am adds ~35% on these routes.
+# Driving estimate factors applied to straight-line Haversine distance:
+#   ROAD_FACTOR    — actual road distance ≈ 1.4× straight-line in metro Boston
+#   AVG_SPEED_MPH  — average urban/suburban speed before rush hour
+#   RUSH_HOUR_MULT — Boston 8 am traffic adds ~35% to free-flow time
+ROAD_FACTOR       = 1.4
+AVG_SPEED_MPH     = 28.0
 RUSH_HOUR_MULTIPLIER = 1.35
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-OSRM_URL = "http://router.project-osrm.org/route/v1/driving/{lon1},{lat1};{lon2},{lat2}"
 GMAPS_URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
 
 NOMINATIM_HEADERS = {
@@ -83,28 +87,19 @@ def _geocode(address: str) -> Optional[tuple]:
         return None
 
 
-# ── OSRM routing ──────────────────────────────────────────────────────────────
+# ── Haversine routing estimate ────────────────────────────────────────────────
 
-def _osrm_drive_minutes(from_lat: float, from_lon: float) -> Optional[float]:
-    """
-    Free-flow driving minutes via the OSRM public API.
-    Multiply by RUSH_HOUR_MULTIPLIER before comparing to limit.
-    """
-    url = OSRM_URL.format(
-        lon1=from_lon, lat1=from_lat,
-        lon2=DEST_LON,  lat2=DEST_LAT,
-    )
-    try:
-        resp = requests.get(url, params={"overview": "false"}, timeout=5)
-        resp.raise_for_status()
-        data = resp.json()
-        if data.get("code") != "Ok" or not data.get("routes"):
-            logger.warning("OSRM returned no route: %s", data.get("message", ""))
-            return None
-        return data["routes"][0]["duration"] / 60  # seconds → minutes
-    except Exception as exc:
-        logger.warning("OSRM routing failed: %s", exc)
-        return None
+def _haversine_drive_minutes(from_lat: float, from_lon: float) -> float:
+    """Estimate rush-hour driving time using Haversine straight-line distance."""
+    R = 3956.0  # Earth radius in miles
+    lat1 = math.radians(from_lat); lon1 = math.radians(from_lon)
+    lat2 = math.radians(DEST_LAT);  lon2 = math.radians(DEST_LON)
+    dlat = lat2 - lat1; dlon = lon2 - lon1
+    a = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
+    straight_miles = 2 * R * math.asin(math.sqrt(a))
+    drive_miles = straight_miles * ROAD_FACTOR
+    base_minutes = (drive_miles / AVG_SPEED_MPH) * 60
+    return base_minutes * RUSH_HOUR_MULTIPLIER
 
 
 # ── Google Maps (optional) ────────────────────────────────────────────────────
@@ -145,22 +140,19 @@ def get_commute_minutes(address: str, api_key: str = "") -> tuple:
     """
     Return (minutes: int|None, is_estimate: bool).
 
-    Uses Google Maps if api_key is set, otherwise OSRM + Nominatim.
-    is_estimate=True signals the OSRM path (rush-hour multiplier applied).
+    Uses Google Maps if api_key is set, otherwise Nominatim + Haversine.
+    is_estimate=True signals the Haversine path (rush-hour multiplier applied).
     """
     if api_key:
         mins = _gmaps_drive_minutes(address, api_key)
         return mins, False
 
-    # OSRM path
+    # Haversine path
     coords = _geocode(address)
     if coords is None:
         return None, True
     time.sleep(1.1)  # Nominatim requests 1 req/sec
-    free_flow = _osrm_drive_minutes(coords[0], coords[1])
-    if free_flow is None:
-        return None, True
-    rush_mins = int(free_flow * RUSH_HOUR_MULTIPLIER)
+    rush_mins = int(_haversine_drive_minutes(coords[0], coords[1]))
     return rush_mins, True
 
 
@@ -170,7 +162,7 @@ def check_commutes(listings, api_key: str, max_minutes: int) -> list:
     then filter out those exceeding max_minutes.
     Listings whose commute can't be determined are kept with a note.
     """
-    method = "Google Maps" if api_key else "OSRM (free, rush-hour estimate)"
+    method = "Google Maps" if api_key else "Haversine (free, rush-hour estimate)"
     logger.info("Checking commutes via %s (limit: %d min)", method, max_minutes)
 
     passing = []
