@@ -1,1 +1,8 @@
-# log file — populated by GitHub Actions
+Traceback (most recent call last):
+  File "/home/runner/work/House-hunt/House-hunt/main.py", line 22, in <module>
+    from config import (
+  File "/home/runner/work/House-hunt/House-hunt/config.py", line 32, in <module>
+    "smtp_port":      int(os.getenv("SMTP_PORT", "587")),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+--- exit code: 1 ---
