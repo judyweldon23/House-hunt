@@ -7,7 +7,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4100,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/335/genMid.73480335_1.jpg",
       "redfin_url": "https://www.redfin.com/MA/Newton-Highlands/16-Josselyn-Pl-02461/unit-16/home/179809342",
       "zillow_url": null,
       "compass_url": null,
@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8974602",
@@ -25,7 +25,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 4550,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/948/genMid.73488948_2.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/7-Bemis-Rd-02481/home/8974602",
       "zillow_url": null,
       "compass_url": null,
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11451419",
@@ -43,7 +43,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 4607,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/880/genMid.73473880_1.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/110-Avalon-Rd-02468/home/11451419",
       "zillow_url": null,
       "compass_url": null,
@@ -52,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11449471",
@@ -61,7 +61,7 @@
       "beds": 6,
       "baths": 3.0,
       "sqft": 4605,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/028/genMid.73472028_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/62-Fuller-St-02446/home/11449471",
       "zillow_url": null,
       "compass_url": null,
@@ -70,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8985709",
@@ -79,7 +79,7 @@
       "beds": 5,
       "baths": 4.0,
       "sqft": 4200,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/740/genMid.73485740_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/16-Oak-St-02482/home/8985709",
       "zillow_url": null,
       "compass_url": null,
@@ -88,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -97,7 +97,7 @@
       "beds": 8,
       "baths": 4.0,
       "sqft": 0,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/641/mbpaddedwide/129/genMid.1987053300396578129_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/Undisclosed-address-02445/home/11507392",
       "zillow_url": null,
       "compass_url": null,
@@ -106,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -115,7 +115,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 3898,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/463/genMid.73401463_3.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/84-Winthrop-Rd-02445/unit-1/home/196296414",
       "zillow_url": null,
       "compass_url": null,
@@ -124,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -133,7 +133,7 @@
       "beds": 5,
       "baths": 3.5,
       "sqft": 5076,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/014/genMid.73492014_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/34-Lagrange-St-02467/home/11497711",
       "zillow_url": null,
       "compass_url": null,
@@ -142,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_178376537",
@@ -151,7 +151,7 @@
       "beds": 7,
       "baths": 7.5,
       "sqft": 7000,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/293/genMid.73472293_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/365-Worcester-St-02481/home/178376537",
       "zillow_url": null,
       "compass_url": null,
@@ -160,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -169,7 +169,7 @@
       "beds": 5,
       "baths": 3.5,
       "sqft": 4724,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/578/genMid.73492578_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/140-Dudley-St-02445/home/11492872",
       "zillow_url": null,
       "compass_url": null,
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11452404",
@@ -187,7 +187,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4370,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/221/genMid.73480221_3.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/18-Moffat-Rd-02468/home/11452404",
       "zillow_url": null,
       "compass_url": null,
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8995275",
@@ -205,7 +205,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 5172,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/546/genMid.73488546_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/265-Weston-Rd-02482/home/8995275",
       "zillow_url": null,
       "compass_url": null,
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -223,7 +223,7 @@
       "beds": 6,
       "baths": 4.5,
       "sqft": 5806,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/384/genMid.73344384_2.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/42-Edmunds-Rd-02481/home/8979005",
       "zillow_url": null,
       "compass_url": null,
@@ -232,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11450112",
@@ -241,7 +241,7 @@
       "beds": 6,
       "baths": 6.5,
       "sqft": 6111,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/391/genMid.73476391_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/West-Newton/1230-Commonwealth-Ave-02465/home/11450112",
       "zillow_url": null,
       "compass_url": null,
@@ -250,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -259,7 +259,7 @@
       "beds": 6,
       "baths": 6.0,
       "sqft": 3685,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/214/genMid.73490214_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/16-York-Ter-02446/home/11453556",
       "zillow_url": null,
       "compass_url": null,
@@ -268,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8999649",
@@ -277,7 +277,7 @@
       "beds": 5,
       "baths": 5.0,
       "sqft": 5073,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/702/genMid.73466702_7.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/8-Oakdale-Ave-02482/home/8999649",
       "zillow_url": null,
       "compass_url": null,
@@ -286,7 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8984039",
@@ -295,7 +295,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4582,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/418/genMid.73488418_1.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/25-Longmeadow-Rd-02482/home/8984039",
       "zillow_url": null,
       "compass_url": null,
@@ -304,7 +304,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_56792042",
@@ -313,7 +313,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 5384,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/710/genMid.73491710_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/11-Fisher-Ave-02482/home/56792042",
       "zillow_url": null,
       "compass_url": null,
@@ -322,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11498947",
@@ -331,7 +331,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4416,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/096/genMid.73472096_2.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/38-Parker-Rd-02482/home/11498947",
       "zillow_url": null,
       "compass_url": null,
@@ -340,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -349,7 +349,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 6035,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/927/genMid.73484927_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/10-Hallwood-Rd-02467/home/11495037",
       "zillow_url": null,
       "compass_url": null,
@@ -358,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11482774",
@@ -367,7 +367,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 3658,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/454/genMid.73473454_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/43-Druce-St-02445/home/11482774",
       "zillow_url": null,
       "compass_url": null,
@@ -376,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11437995",
@@ -385,7 +385,7 @@
       "beds": 4,
       "baths": 3.0,
       "sqft": 4836,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/133/genMid.73492133_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/447-Waban-Ave-02468/home/11437995",
       "zillow_url": null,
       "compass_url": null,
@@ -394,7 +394,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -403,7 +403,7 @@
       "beds": 4,
       "baths": 3.0,
       "sqft": 3859,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/127/genMid.73489127_2.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/1125-W-Roxbury-Pkwy-02467/home/11495183",
       "zillow_url": null,
       "compass_url": null,
@@ -412,7 +412,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8979761",
@@ -421,7 +421,7 @@
       "beds": 4,
       "baths": 3.5,
       "sqft": 4016,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/152/genMid.73492152_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/345-Linden-St-02481/home/8979761",
       "zillow_url": null,
       "compass_url": null,
@@ -430,7 +430,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_11831692",
@@ -439,7 +439,7 @@
       "beds": 4,
       "baths": 3.5,
       "sqft": 4102,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/119/genMid.73475119_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/23-Pilgrim-Rd-02481/home/11831692",
       "zillow_url": null,
       "compass_url": null,
@@ -448,7 +448,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_8968591",
@@ -457,7 +457,7 @@
       "beds": 4,
       "baths": 3.5,
       "sqft": 3515,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/854/genMid.73492854_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Wellesley/8-Tennyson-Rd-02481/home/8968591",
       "zillow_url": null,
       "compass_url": null,
@@ -466,7 +466,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -475,7 +475,7 @@
       "beds": 4,
       "baths": 4.0,
       "sqft": 4069,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/332/genMid.73480332_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/36-Osborne-Rd-02446/home/11448388",
       "zillow_url": null,
       "compass_url": null,
@@ -484,9 +484,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:21:46.142457+00:00"
+      "last_seen": "2026-03-31T18:41:24.020351+00:00"
     }
   ],
-  "last_updated": "2026-03-31T18:21:46.142457+00:00",
+  "last_updated": "2026-03-31T18:41:24.020351+00:00",
   "total": 27
 }
