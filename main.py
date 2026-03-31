@@ -182,4 +182,9 @@ def run() -> None:
 
 
 if __name__ == "__main__":
-    run()
+    import traceback
+    try:
+        run()
+    except Exception:
+        traceback.print_exc()
+        raise   # re-raise so exit code 1 signals the workflow step failed

@@ -26,8 +26,33 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # ── Verify imports before running ─────────────────────────────────────────
+      - name: Verify Python environment
+        run: |
+          python - <<'EOF'
+          import sys, traceback
+          print(f"Python {sys.version}")
+          checks = [
+            ("requests",   "import requests; print('requests', requests.__version__)"),
+            ("bs4",        "import bs4; print('bs4', bs4.__version__)"),
+            ("pytz",       "import pytz; print('pytz', pytz.__version__)"),
+            ("dotenv",     "import dotenv; print('dotenv OK')"),
+            ("APScheduler","import apscheduler; print('apscheduler', apscheduler.__version__)"),
+            ("flask",      "import flask; print('flask', flask.__version__)"),
+            ("main",       "from main import run; print('main import OK')"),
+          ]
+          ok = True
+          for name, code in checks:
+            try:
+              exec(code)
+            except Exception as e:
+              print(f"FAIL {name}: {e}")
+              traceback.print_exc()
+              ok = False
+          sys.exit(0 if ok else 1)
+          EOF
+
       # ── Run the scraper ───────────────────────────────────────────────────────
-      # Secrets are set in: repo Settings → Secrets and variables → Actions
       - name: Scrape listings & send email
         continue-on-error: true   # email failure must not block the data commit
         env:
@@ -37,11 +62,9 @@ jobs:
           SMTP_USER:       ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD:   ${{ secrets.SMTP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-        run: python main.py
+        run: python -u main.py    # -u = unbuffered so logs appear immediately
 
       # ── Commit updated data back to the repo ──────────────────────────────────
-      # docs/listings.json  → auto-served by GitHub Pages (/docs folder)
-      # data/seen_listings.json → deduplication state between runs
       - name: Commit updated listings data
         run: |
           git config user.name  "house-hunt-bot"
