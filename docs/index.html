@@ -142,6 +142,17 @@
     .alt-link { color: var(--navy); text-decoration: none; margin-right: 8px; }
     .alt-link:hover { text-decoration: underline; }
 
+    /* ── Dismiss button ── */
+    .btn-dismiss {
+      background: none; border: 1px solid #ddd; color: #aaa;
+      padding: 7px 12px; border-radius: 8px; font-size: 13px;
+      cursor: pointer; transition: all .15s; white-space: nowrap;
+    }
+    .btn-dismiss:hover { background: #fff0f0; border-color: #e57373; color: #c62828; }
+
+    /* ── Dismissed tab indicator ── */
+    .chip.dismissed-chip.active { background: #9e9e9e; border-color: #9e9e9e; }
+
     /* ── Empty / loading states ── */
     .state-box {
       text-align: center; padding: 60px 20px; color: var(--muted);
@@ -192,6 +203,7 @@
   <span class="chip" data-filter="5br">5+ Bedrooms</span>
   <span class="chip" data-filter="office">4 BR + Office</span>
   <span class="chip" data-filter="under3m">Under $3M</span>
+  <span class="chip dismissed-chip" data-filter="dismissed">&#128683; Not a Fit</span>
 </div>
 
 <div class="stats-bar">
@@ -221,6 +233,21 @@ let allListings   = [];
 let activeFilter  = "all";
 let deferredPrompt = null;
 let refreshTimer   = null;
+
+// Dismissed IDs persisted in localStorage
+function getDismissed() {
+  try { return new Set(JSON.parse(localStorage.getItem("dismissed-ids") || "[]")); }
+  catch { return new Set(); }
+}
+function saveDismissed(set) {
+  localStorage.setItem("dismissed-ids", JSON.stringify([...set]));
+}
+function dismissListing(id) {
+  const d = getDismissed(); d.add(id); saveDismissed(d); renderListings();
+}
+function restoreListing(id) {
+  const d = getDismissed(); d.delete(id); saveDismissed(d); renderListings();
+}
 
 // ── Fetch + render ─────────────────────────────────────────────────────────
 // Supports two modes automatically:
@@ -284,12 +311,16 @@ function timeAgo(date) {
 
 // ── Filter ─────────────────────────────────────────────────────────────────
 function filterListings() {
+  const dismissed = getDismissed();
+  const active = allListings.filter(l => !dismissed.has(l.id));
+  const dis    = allListings.filter(l =>  dismissed.has(l.id));
   switch (activeFilter) {
-    case "priority": return allListings.filter(l => l.priority_score > 0);
-    case "5br":      return allListings.filter(l => l.beds >= 5);
-    case "office":   return allListings.filter(l => l.beds === 4 && l.has_office);
-    case "under3m":  return allListings.filter(l => l.price < 3_000_000);
-    default:         return allListings;
+    case "priority":  return active.filter(l => l.priority_score > 0);
+    case "5br":       return active.filter(l => l.beds >= 5);
+    case "office":    return active.filter(l => l.beds === 4 && l.has_office);
+    case "under3m":   return active.filter(l => l.price < 3_000_000);
+    case "dismissed": return dis;
+    default:          return active;
   }
 }
 
@@ -298,9 +329,12 @@ function renderListings() {
   const grid = document.getElementById("listings-grid");
   const visible = filterListings();
 
+  const dismissed = getDismissed();
+  const activeCount = allListings.filter(l => !dismissed.has(l.id)).length;
   document.getElementById("stats-count").textContent =
     `${visible.length} listing${visible.length !== 1 ? "s" : ""}` +
-    (allListings.length !== visible.length ? ` of ${allListings.length}` : "");
+    (activeFilter !== "dismissed" && activeCount !== visible.length ? ` of ${activeCount}` : "") +
+    (dismissed.size ? `  ·  ${dismissed.size} not a fit` : "");
 
   if (!visible.length) {
     grid.innerHTML = `
@@ -370,6 +404,10 @@ function cardHTML(l) {
       <div class="card-links">
         <a class="btn-primary" href="${esc(preferred_url)}" target="_blank">View on ${preferred_label}</a>
         ${altSection}
+        ${activeFilter === "dismissed"
+          ? `<button class="btn-dismiss" onclick="restoreListing('${esc(l.id)}')">&#8593; Restore</button>`
+          : `<button class="btn-dismiss" onclick="dismissListing('${esc(l.id)}')">&#128683; Not a fit</button>`
+        }
       </div>
     </div>
   </div>`;

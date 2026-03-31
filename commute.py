@@ -95,7 +95,7 @@ def _osrm_drive_minutes(from_lat: float, from_lon: float) -> Optional[float]:
         lon2=DEST_LON,  lat2=DEST_LAT,
     )
     try:
-        resp = requests.get(url, params={"overview": "false"}, timeout=10)
+        resp = requests.get(url, params={"overview": "false"}, timeout=5)
         resp.raise_for_status()
         data = resp.json()
         if data.get("code") != "Ok" or not data.get("routes"):

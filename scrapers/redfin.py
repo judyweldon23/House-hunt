@@ -63,7 +63,7 @@ def _fetch_listing_photo(url_path: str) -> Optional[str]:
             allow_redirects=True,
         )
         if resp.status_code != 200:
-            logger.debug("Photo page returned %d for %s", resp.status_code, url_path)
+            logger.warning("Photo page returned %d for %s", resp.status_code, url_path)
             return None
         # og:image is the canonical main photo used by social/search crawlers
         match = re.search(
