@@ -147,6 +147,8 @@ def run() -> None:
 
     if not all_listings:
         logger.warning("No listings found across all sources and locations.")
+        export_web_json([])
+        database.upsert_listings([])
         return
 
     unique_listings = deduplicate(all_listings)
