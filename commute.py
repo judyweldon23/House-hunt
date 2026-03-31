@@ -14,6 +14,7 @@ Both paths check the driving time at 8:00 AM on the next Wednesday.
 import datetime
 import logging
 import math
+import re
 import time
 from typing import Optional
 
@@ -42,6 +43,24 @@ GMAPS_URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
 
 NOMINATIM_HEADERS = {
     "User-Agent": "HouseHuntScraper/1.0 (judy.weldon@Baincapital.com)"
+}
+
+# Zip-code center coordinates used as a fallback when Nominatim fails.
+# Accurate to within ~1 mile for these Boston suburbs.
+_ZIP_COORDS: dict = {
+    "02446": (42.330, -71.115),   # Brookline (Coolidge Corner / Washington Sq)
+    "02445": (42.328, -71.135),   # Brookline (south)
+    "02467": (42.320, -71.163),   # Chestnut Hill
+    "02468": (42.325, -71.222),   # Waban
+    "02461": (42.320, -71.207),   # Newton Highlands
+    "02465": (42.349, -71.232),   # West Newton
+    "02481": (42.302, -71.293),   # Wellesley Hills
+    "02482": (42.296, -71.276),   # Wellesley center
+    "02459": (42.328, -71.192),   # Newton Centre
+    "02460": (42.347, -71.209),   # Newtonville
+    "02462": (42.347, -71.257),   # Newton Lower Falls
+    "02464": (42.338, -71.244),   # Newton Upper Falls
+    "02466": (42.348, -71.247),   # Auburndale
 }
 
 # Simple in-process geocode cache to avoid repeat Nominatim lookups
@@ -147,11 +166,16 @@ def get_commute_minutes(address: str, api_key: str = "") -> tuple:
         mins = _gmaps_drive_minutes(address, api_key)
         return mins, False
 
-    # Haversine path
+    # Haversine path — try Nominatim first, fall back to zip-code center
     coords = _geocode(address)
     if coords is None:
-        return None, True
-    time.sleep(1.1)  # Nominatim requests 1 req/sec
+        zip_match = re.search(r"\b(\d{5})\b", address)
+        if zip_match:
+            coords = _ZIP_COORDS.get(zip_match.group(1))
+        if coords is None:
+            return None, True
+    else:
+        time.sleep(1.1)  # Nominatim requests 1 req/sec
     rush_mins = int(_haversine_drive_minutes(coords[0], coords[1]))
     return rush_mins, True
 
