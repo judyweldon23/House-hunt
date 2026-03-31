@@ -7,7 +7,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4100,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/335/genMid.73480335_1.jpg",
       "redfin_url": "https://www.redfin.com/MA/Newton-Highlands/16-Josselyn-Pl-02461/unit-16/home/179809342",
       "zillow_url": null,
       "compass_url": null,
@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11451419",
@@ -25,7 +25,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 4607,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/880/genMid.73473880_1.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/110-Avalon-Rd-02468/home/11451419",
       "zillow_url": null,
       "compass_url": null,
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11449471",
@@ -43,7 +43,7 @@
       "beds": 6,
       "baths": 3.0,
       "sqft": 4605,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/028/genMid.73472028_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/62-Fuller-St-02446/home/11449471",
       "zillow_url": null,
       "compass_url": null,
@@ -52,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -61,7 +61,7 @@
       "beds": 8,
       "baths": 4.0,
       "sqft": 0,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/641/mbpaddedwide/129/genMid.1987053300396578129_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/Undisclosed-address-02445/home/11507392",
       "zillow_url": null,
       "compass_url": null,
@@ -70,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -79,7 +79,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 3898,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/463/genMid.73401463_3.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/84-Winthrop-Rd-02445/unit-1/home/196296414",
       "zillow_url": null,
       "compass_url": null,
@@ -88,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -97,7 +97,7 @@
       "beds": 5,
       "baths": 3.5,
       "sqft": 5076,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/014/genMid.73492014_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/34-Lagrange-St-02467/home/11497711",
       "zillow_url": null,
       "compass_url": null,
@@ -106,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -115,7 +115,7 @@
       "beds": 5,
       "baths": 3.5,
       "sqft": 4724,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/578/genMid.73492578_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/140-Dudley-St-02445/home/11492872",
       "zillow_url": null,
       "compass_url": null,
@@ -124,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11452404",
@@ -133,7 +133,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 4370,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/221/genMid.73480221_3.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/18-Moffat-Rd-02468/home/11452404",
       "zillow_url": null,
       "compass_url": null,
@@ -142,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11450112",
@@ -151,7 +151,7 @@
       "beds": 6,
       "baths": 6.5,
       "sqft": 6111,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/391/genMid.73476391_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/West-Newton/1230-Commonwealth-Ave-02465/home/11450112",
       "zillow_url": null,
       "compass_url": null,
@@ -160,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -169,7 +169,7 @@
       "beds": 6,
       "baths": 6.0,
       "sqft": 3685,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/214/genMid.73490214_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/16-York-Ter-02446/home/11453556",
       "zillow_url": null,
       "compass_url": null,
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -187,7 +187,7 @@
       "beds": 5,
       "baths": 5.5,
       "sqft": 6035,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/927/genMid.73484927_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/10-Hallwood-Rd-02467/home/11495037",
       "zillow_url": null,
       "compass_url": null,
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11482774",
@@ -205,7 +205,7 @@
       "beds": 5,
       "baths": 4.5,
       "sqft": 3658,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/454/genMid.73473454_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/43-Druce-St-02445/home/11482774",
       "zillow_url": null,
       "compass_url": null,
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11437995",
@@ -223,16 +223,16 @@
       "beds": 4,
       "baths": 3.0,
       "sqft": 4836,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/133/genMid.73492133_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Waban/447-Waban-Ave-02468/home/11437995",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 34,
+      "commute_minutes": 33,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -241,7 +241,7 @@
       "beds": 4,
       "baths": 3.0,
       "sqft": 3859,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/127/genMid.73489127_2.jpg",
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/1125-W-Roxbury-Pkwy-02467/home/11495183",
       "zillow_url": null,
       "compass_url": null,
@@ -250,7 +250,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -259,7 +259,7 @@
       "beds": 4,
       "baths": 4.0,
       "sqft": 4069,
-      "image_url": null,
+      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/332/genMid.73480332_0.jpg",
       "redfin_url": "https://www.redfin.com/MA/Brookline/36-Osborne-Rd-02446/home/11448388",
       "zillow_url": null,
       "compass_url": null,
@@ -268,9 +268,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T18:54:37.793361+00:00"
+      "last_seen": "2026-03-31T19:02:01.176858+00:00"
     }
   ],
-  "last_updated": "2026-03-31T18:54:37.793361+00:00",
+  "last_updated": "2026-03-31T19:02:01.176858+00:00",
   "total": 15
 }
