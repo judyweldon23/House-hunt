@@ -29,7 +29,7 @@ EMAIL_CONFIG = {
     "recipient":      os.getenv("RECIPIENT_EMAIL", "judy.weldon@Baincapital.com"),
     "sender":         os.getenv("SENDER_EMAIL", ""),
     "smtp_host":      os.getenv("SMTP_HOST", "smtp.gmail.com"),
-    "smtp_port":      int(os.getenv("SMTP_PORT", "587")),
+    "smtp_port":      int(os.getenv("SMTP_PORT") or "587"),
     "smtp_user":      os.getenv("SMTP_USER", ""),
     "smtp_password":  os.getenv("SMTP_PASSWORD", ""),
 }
