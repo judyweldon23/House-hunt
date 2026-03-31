@@ -1,15 +1,22 @@
 """
-Main orchestrator: scrape → deduplicate → commute filter → email + DB.
+Main orchestrator: scrape → deduplicate → commute filter → email + persist.
 
 Run directly:   python main.py
-Via scheduler:  python scheduler.py
+Via scheduler:  python scheduler.py  (local / VPS)
+Via CI:         GitHub Actions runs this on a schedule (see .github/workflows/)
 
-First run:  emails ALL current matching listings, saves them to DB.
-Subsequent: emails only NEW listings, keeps DB up to date.
+First run:  emails ALL current matching listings.
+Subsequent: emails only NEW listings.
+
+Listings are always written to:
+  • data/listings.db      (SQLite, for the local Flask app)
+  • web/listings.json     (JSON,   for the GitHub Pages website)
 """
+import json
 import logging
+import os
 import re
-import sys
+from datetime import datetime, timezone
 from typing import List
 
 from config import (
@@ -31,6 +38,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+WEB_JSON = os.path.join(os.path.dirname(__file__), "web", "listings.json")
+
 
 # ── Deduplication ─────────────────────────────────────────────────────────────
 
@@ -42,10 +51,6 @@ def _normalize_address(address: str) -> str:
 
 
 def deduplicate(listings: List[Listing]) -> List[Listing]:
-    """
-    Merge listings sharing the same normalised address, combining URLs.
-    Redfin URL and ID take precedence.
-    """
     seen_addr: dict = {}
     for listing in listings:
         key = _normalize_address(listing.address)
@@ -61,10 +66,61 @@ def deduplicate(listings: List[Listing]) -> List[Listing]:
                 existing.has_office = True
             if listing.source == "redfin":
                 existing.id = listing.id
-
     deduped = list(seen_addr.values())
     logger.info("After dedup: %d unique listings", len(deduped))
     return deduped
+
+
+# ── Web JSON export (GitHub Pages) ────────────────────────────────────────────
+
+def _listing_to_dict(l: Listing, now: str) -> dict:
+    return {
+        "id":                  l.id,
+        "address":             l.address,
+        "price":               l.price,
+        "beds":                l.beds,
+        "baths":               l.baths,
+        "sqft":                l.sqft,
+        "image_url":           l.image_url,
+        "redfin_url":          l.redfin_url,
+        "zillow_url":          l.zillow_url,
+        "compass_url":         l.compass_url,
+        "commute_minutes":     l.commute_minutes,
+        "commute_is_estimate": l.commute_is_estimate,
+        "has_office":          l.has_office,
+        "priority_score":      l.priority_score,
+        "source":              l.source,
+        "last_seen":           now,
+    }
+
+
+def export_web_json(listings: List[Listing]) -> None:
+    """
+    Merge `listings` into web/listings.json, accumulating across runs.
+    The JSON file is the data source for the GitHub Pages website.
+    """
+    try:
+        with open(WEB_JSON) as f:
+            existing = {d["id"]: d for d in json.load(f).get("listings", [])}
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        existing = {}
+
+    now = datetime.now(timezone.utc).isoformat()
+    for l in listings:
+        existing[l.id] = _listing_to_dict(l, now)
+
+    sorted_data = sorted(
+        existing.values(),
+        key=lambda x: (-x.get("priority_score", 0), x.get("price", 0)),
+    )
+
+    os.makedirs(os.path.dirname(WEB_JSON), exist_ok=True)
+    with open(WEB_JSON, "w") as f:
+        json.dump(
+            {"listings": sorted_data, "last_updated": now, "total": len(sorted_data)},
+            f, indent=2,
+        )
+    logger.info("Wrote %d total listings to web/listings.json", len(sorted_data))
 
 
 # ── Main run ──────────────────────────────────────────────────────────────────
@@ -79,29 +135,24 @@ def run() -> None:
         fallback_id = loc["redfin_fallback_id"]
         fallback_rt = loc["redfin_region_type"]
 
-        rf = scrape_redfin(
+        all_listings.extend(scrape_redfin(
             location=name, fallback_id=fallback_id, fallback_region_type=fallback_rt,
             min_price=criteria["min_price"], max_price=criteria["max_price"],
             min_beds=criteria["min_beds"], min_baths=criteria["min_baths"],
             min_sqft=criteria["min_sqft"],
-        )
-        all_listings.extend(rf)
-
-        zl = scrape_zillow(
+        ))
+        all_listings.extend(scrape_zillow(
             location=name,
             min_price=criteria["min_price"], max_price=criteria["max_price"],
             min_beds=criteria["min_beds"], min_baths=criteria["min_baths"],
             min_sqft=criteria["min_sqft"],
-        )
-        all_listings.extend(zl)
-
-        cp = scrape_compass(
+        ))
+        all_listings.extend(scrape_compass(
             location=name,
             min_price=criteria["min_price"], max_price=criteria["max_price"],
             min_beds=criteria["min_beds"], min_baths=criteria["min_baths"],
             min_sqft=criteria["min_sqft"],
-        )
-        all_listings.extend(cp)
+        ))
 
     if not all_listings:
         logger.warning("No listings found across all sources and locations.")
@@ -112,14 +163,14 @@ def run() -> None:
     # ── Decide what to email ──────────────────────────────────────────────────
     first = is_first_run()
     if first:
-        logger.info("First run — will email ALL %d current listings", len(unique_listings))
+        logger.info("First run — emailing ALL %d current listings", len(unique_listings))
         to_check = unique_listings
     else:
         to_check = filter_new_listings(unique_listings)
         if not to_check:
             logger.info("No new listings — skipping email.")
-            # Still update the DB with any updated commute/URL data
             database.upsert_listings(unique_listings)
+            export_web_json(unique_listings)
             return
 
     # ── Commute filter ────────────────────────────────────────────────────────
@@ -134,19 +185,20 @@ def run() -> None:
         logger.info("All listings filtered by commute — skipping email.")
         mark_seen(to_check)
         database.upsert_listings(unique_listings)
+        export_web_json(unique_listings)
         return
 
     # ── Email ─────────────────────────────────────────────────────────────────
     ok = send_email(passing, EMAIL_CONFIG)
-
     if ok:
         mark_seen(passing)
         logger.info("Email sent with %d listings.", len(passing))
     else:
         logger.error("Email failed — listings NOT marked seen (will retry next run).")
 
-    # ── Persist to DB (for mobile app) — always do this ──────────────────────
+    # ── Persist (always) ──────────────────────────────────────────────────────
     database.upsert_listings(passing)
+    export_web_json(passing)
 
 
 if __name__ == "__main__":

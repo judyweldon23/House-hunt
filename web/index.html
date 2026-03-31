@@ -223,17 +223,38 @@ let deferredPrompt = null;
 let refreshTimer   = null;
 
 // ── Fetch + render ─────────────────────────────────────────────────────────
+// Supports two modes automatically:
+//   • Flask app server  → GET /api/listings  (local / VPS)
+//   • GitHub Pages      → GET ./listings.json (static file)
 async function fetchListings() {
   const btn = document.getElementById("refresh-btn");
   btn.classList.add("spinning");
   try {
-    const [listResp, statsResp] = await Promise.all([
-      fetch("/api/listings"),
-      fetch("/api/stats"),
-    ]);
-    allListings = await listResp.json();
-    const stats = await statsResp.json();
-    updateLastUpdated(stats.last_updated);
+    let listings = null, lastUpdated = null;
+
+    // Mode 1: Flask API (local or VPS)
+    try {
+      const [lr, sr] = await Promise.all([
+        fetch("/api/listings", { signal: AbortSignal.timeout(3000) }),
+        fetch("/api/stats",    { signal: AbortSignal.timeout(3000) }),
+      ]);
+      if (lr.ok) {
+        listings    = await lr.json();
+        const stats = await sr.json();
+        lastUpdated = stats.last_updated;
+      }
+    } catch (_) { /* not running locally — fall through */ }
+
+    // Mode 2: static listings.json (GitHub Pages)
+    if (!listings) {
+      const resp = await fetch("./listings.json");
+      const data = await resp.json();
+      listings    = Array.isArray(data) ? data : (data.listings || []);
+      lastUpdated = data.last_updated || null;
+    }
+
+    allListings = listings;
+    if (lastUpdated) updateLastUpdated(lastUpdated);
     renderListings();
   } catch (err) {
     console.error("Fetch error:", err);

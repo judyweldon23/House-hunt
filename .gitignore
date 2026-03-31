@@ -7,5 +7,6 @@ build/
 .venv/
 venv/
 *.log
-data/seen_listings.json
+# seen_listings.json is intentionally tracked — GitHub Actions commits it
+# between runs to avoid re-emailing listings.
 data/listings.db

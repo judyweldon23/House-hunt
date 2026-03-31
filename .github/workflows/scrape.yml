@@ -1,0 +1,67 @@
+name: House Hunt — Scrape & Deploy
+
+on:
+  schedule:
+    # Every other day at 9 am Eastern (13:00 UTC standard / 14:00 UTC daylight)
+    - cron: '0 13 */2 * *'
+  workflow_dispatch:   # "Run workflow" button in GitHub Actions UI for on-demand runs
+
+# Required for committing state back to the repo and deploying GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy-pages.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── Run the scraper ───────────────────────────────────────────────────────
+      # Secrets are set in: repo Settings → Secrets and variables → Actions
+      - name: Scrape listings & send email
+        env:
+          SENDER_EMAIL:    ${{ secrets.SENDER_EMAIL }}
+          SMTP_HOST:       ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:       ${{ secrets.SMTP_PORT }}
+          SMTP_USER:       ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:   ${{ secrets.SMTP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python main.py
+
+      # ── Commit updated data files back to the repo ────────────────────────────
+      # web/listings.json  → powers the GitHub Pages website
+      # data/seen_listings.json → prevents re-emailing listings between runs
+      - name: Commit updated listings data
+        run: |
+          git config user.name  "house-hunt-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/listings.json data/seen_listings.json
+          git diff --staged --quiet || (
+            git commit -m "chore: listings update $(date -u '+%Y-%m-%d')" &&
+            git push
+          )
+
+      # ── Deploy web/ to GitHub Pages ───────────────────────────────────────────
+      - uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/
+
+      - name: Deploy to GitHub Pages
+        id: deploy-pages
+        uses: actions/deploy-pages@v4
