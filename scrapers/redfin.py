@@ -148,6 +148,13 @@ def scrape_redfin(
 
     homes = data.get("payload", {}).get("homes", [])
     logger.info("Redfin returned %d homes for %s", len(homes), location)
+    if homes:
+        sample = homes[0]
+        logger.info(
+            "Redfin sample home fields: price=%s beds=%s baths=%s sqft=%s",
+            sample.get("price"), sample.get("beds"),
+            sample.get("baths"), sample.get("sqFt"),
+        )
 
     for home in homes:
         try:
@@ -166,12 +173,15 @@ def scrape_redfin(
             photo_urls = home.get("photoUrls", [])
             image_url = photo_urls[0] if photo_urls else None
 
-            # Secondary validation (primary filters applied by the API)
-            if not all([price, beds, baths, sqft]):
+            # Require price, beds, baths — sqft may be absent from GIS response
+            # (API already filters by min_sqft so missing sqft = trust the API)
+            if not all([price, beds, baths]):
                 continue
             if not (min_price <= price <= max_price):
                 continue
-            if beds < min_beds or baths < min_baths or sqft < min_sqft:
+            if beds < min_beds or baths < min_baths:
+                continue
+            if sqft and sqft < min_sqft:
                 continue
 
             has_office = False
