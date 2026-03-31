@@ -39,6 +39,44 @@ REGION_TYPE_MAP = {
 
 OFFICE_KEYWORDS = {"office", "study", "home office", "library", "den"}
 
+PAGE_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.redfin.com/",
+}
+
+
+def _fetch_listing_photo(url_path: str) -> Optional[str]:
+    """Get the main photo URL from the listing page og:image meta tag."""
+    if not url_path:
+        return None
+    try:
+        resp = requests.get(
+            f"{BASE_URL}{url_path}",
+            headers=PAGE_HEADERS,
+            timeout=15,
+            allow_redirects=True,
+        )
+        if resp.status_code != 200:
+            logger.debug("Photo page returned %d for %s", resp.status_code, url_path)
+            return None
+        # og:image is the canonical main photo used by social/search crawlers
+        match = re.search(
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']'
+            r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            resp.text,
+        )
+        if match:
+            return match.group(1) or match.group(2)
+    except Exception as exc:
+        logger.debug("Photo fetch failed for %s: %s", url_path, exc)
+    return None
+
 
 def _parse_rf_json(text: str) -> dict:
     """Redfin prefixes JSON responses with '{}&&' — strip it."""
@@ -149,10 +187,11 @@ def scrape_redfin(
     if homes:
         sample = homes[0]
         logger.info(
-            "Redfin sample home fields: price=%s beds=%s baths=%s sqft=%s",
+            "Redfin sample home fields: price=%s beds=%s baths=%s sqft=%s photoUrls=%s",
             sample.get("price"), sample.get("beds"),
-            sample.get("baths"), sample.get("sqFt"),
+            sample.get("baths"), sample.get("sqFt"), sample.get("photoUrls"),
         )
+        logger.debug("Redfin GIS home keys: %s", list(sample.keys()))
 
     for home in homes:
         try:
@@ -206,6 +245,13 @@ def scrape_redfin(
                 continue
             if sqft and sqft < min_sqft:
                 continue
+
+            # Fetch main photo from listing page if GIS API didn't include one
+            if not image_url and url_path:
+                time.sleep(0.5)
+                image_url = _fetch_listing_photo(url_path)
+                if image_url:
+                    logger.debug("Fetched photo for %s", address)
 
             has_office = False
             if beds == 4 and property_id:
