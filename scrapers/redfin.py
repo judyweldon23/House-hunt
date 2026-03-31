@@ -166,7 +166,26 @@ def scrape_redfin(
             beds = int(home.get("beds", 0) or 0)
             baths = float(home.get("baths", 0) or 0)
             sqft = int(home.get("sqFt", {}).get("value", 0) or 0)
-            address = home.get("address", {}).get("value", "Unknown Address")
+
+            # Address may be missing for privacy-protected listings;
+            # fall back to extracting city/zip from the URL path.
+            raw_addr = home.get("address", {})
+            if isinstance(raw_addr, dict):
+                address = raw_addr.get("value", "")
+            else:
+                address = str(raw_addr)
+            if not address:
+                # e.g. /MA/Brookline/Undisclosed-address-02445/home/123
+                parts = url_path.strip("/").split("/")
+                # parts[0]=MA, parts[1]=city, parts[2]=street-zip
+                if len(parts) >= 3:
+                    city = parts[1].replace("-", " ")
+                    state = parts[0]
+                    zip_match = re.search(r"(\d{5})$", parts[2])
+                    zip_code = zip_match.group(1) if zip_match else ""
+                    address = f"Undisclosed, {city}, {state} {zip_code}".strip()
+                else:
+                    address = "Undisclosed Address"
 
             photo_urls = home.get("photoUrls", [])
             image_url = photo_urls[0] if photo_urls else None
