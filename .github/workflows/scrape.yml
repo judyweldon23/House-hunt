@@ -1,4 +1,4 @@
-name: House Hunt — Scrape & Deploy
+name: House Hunt — Scrape & Update
 
 on:
   schedule:
@@ -6,18 +6,12 @@ on:
     - cron: '0 13 */2 * *'
   workflow_dispatch:   # "Run workflow" button in GitHub Actions UI for on-demand runs
 
-# Required for committing state back to the repo and deploying GitHub Pages
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write   # needed to commit listings data back to the repo
 
 jobs:
-  scrape-and-deploy:
+  scrape:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy-pages.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v4
@@ -41,27 +35,15 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
         run: python main.py
 
-      # ── Commit updated data files back to the repo ────────────────────────────
-      # web/listings.json  → powers the GitHub Pages website
-      # data/seen_listings.json → prevents re-emailing listings between runs
+      # ── Commit updated data back to the repo ──────────────────────────────────
+      # docs/listings.json  → auto-served by GitHub Pages (/docs folder)
+      # data/seen_listings.json → deduplication state between runs
       - name: Commit updated listings data
         run: |
           git config user.name  "house-hunt-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add web/listings.json data/seen_listings.json
+          git add docs/listings.json data/seen_listings.json
           git diff --staged --quiet || (
             git commit -m "chore: listings update $(date -u '+%Y-%m-%d')" &&
             git push
           )
-
-      # ── Deploy web/ to GitHub Pages ───────────────────────────────────────────
-      - uses: actions/configure-pages@v5
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: web/
-
-      - name: Deploy to GitHub Pages
-        id: deploy-pages
-        uses: actions/deploy-pages@v4

@@ -38,7 +38,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-WEB_JSON = os.path.join(os.path.dirname(__file__), "web", "listings.json")
+WEB_JSON = os.path.join(os.path.dirname(__file__), "docs", "listings.json")
 
 
 # ── Deduplication ─────────────────────────────────────────────────────────────

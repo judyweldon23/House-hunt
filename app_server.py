@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__, static_folder="web", static_url_path="")
+app = Flask(__name__, static_folder="docs", static_url_path="")
 
 PORT = int(os.getenv("APP_PORT", "8080"))
 
@@ -35,17 +35,17 @@ PORT = int(os.getenv("APP_PORT", "8080"))
 
 @app.route("/")
 def index():
-    return send_from_directory("web", "index.html")
+    return send_from_directory("docs", "index.html")
 
 
 @app.route("/manifest.json")
 def manifest():
-    return send_from_directory("web", "manifest.json")
+    return send_from_directory("docs", "manifest.json")
 
 
 @app.route("/sw.js")
 def service_worker():
-    resp = send_from_directory("web", "sw.js")
+    resp = send_from_directory("docs", "sw.js")
     resp.headers["Service-Worker-Allowed"] = "/"
     resp.headers["Cache-Control"] = "no-cache"
     return resp
