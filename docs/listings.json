@@ -1,5 +1,24 @@
 {
-  "listings": [],
-  "last_updated": "2026-03-31T17:57:49.053828+00:00",
-  "total": 0
+  "listings": [
+    {
+      "id": "redfin_8979005",
+      "address": "Unknown Address",
+      "price": 2750000,
+      "beds": 8,
+      "baths": 4.0,
+      "sqft": 0,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Brookline/Undisclosed-address-02445/home/11507392",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-03-31T18:11:27.358498+00:00"
+    }
+  ],
+  "last_updated": "2026-03-31T18:11:27.358498+00:00",
+  "total": 1
 }
