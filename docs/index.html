@@ -150,8 +150,20 @@
     }
     .btn-dismiss:hover { background: #fff0f0; border-color: #e57373; color: #c62828; }
 
-    /* ── Dismissed tab indicator ── */
+    /* ── Star button ── */
+    .btn-star {
+      background: none; border: 1px solid #ddd; color: #aaa;
+      padding: 7px 12px; border-radius: 8px; font-size: 13px;
+      cursor: pointer; transition: all .15s; white-space: nowrap;
+    }
+    .btn-star:hover        { background: #fffde7; border-color: #fdd835; color: #f9a825; }
+    .btn-star.starred      { background: #fffde7; border-color: #fdd835; color: #f9a825; font-weight: 700; }
+    .card.starred .card-price::before { content: "⭐ "; font-size: 18px; }
+
+    /* ── Dismissed / starred tab indicators ── */
     .chip.dismissed-chip.active { background: #9e9e9e; border-color: #9e9e9e; }
+    .chip.starred-chip.active   { background: #f9a825; border-color: #f9a825; color: #fff; }
+    .chip.loc-chip.active       { background: #1565c0; border-color: #1565c0; }
 
     /* ── Empty / loading states ── */
     .state-box {
@@ -199,10 +211,14 @@
 
 <div class="filter-bar">
   <span class="chip active" data-filter="all">All Listings</span>
+  <span class="chip starred-chip" data-filter="starred">⭐ Starred</span>
   <span class="chip priority-chip" data-filter="priority">&#11088; Priority</span>
   <span class="chip" data-filter="5br">5+ Bedrooms</span>
   <span class="chip" data-filter="office">4 BR + Office</span>
   <span class="chip" data-filter="under3m">Under $3M</span>
+  <span class="chip loc-chip" data-filter="loc-brookline">&#128205; Brookline</span>
+  <span class="chip loc-chip" data-filter="loc-newton">&#128205; Newton</span>
+  <span class="chip loc-chip" data-filter="loc-wellesley">&#128205; Wellesley</span>
   <span class="chip dismissed-chip" data-filter="dismissed">&#128683; Not a Fit</span>
 </div>
 
@@ -247,6 +263,30 @@ function dismissListing(id) {
 }
 function restoreListing(id) {
   const d = getDismissed(); d.delete(id); saveDismissed(d); renderListings();
+}
+
+// Starred IDs persisted in localStorage
+function getStarred() {
+  try { return new Set(JSON.parse(localStorage.getItem("starred-ids") || "[]")); }
+  catch { return new Set(); }
+}
+function saveStarred(set) {
+  localStorage.setItem("starred-ids", JSON.stringify([...set]));
+}
+function toggleStar(id) {
+  const s = getStarred();
+  if (s.has(id)) s.delete(id); else s.add(id);
+  saveStarred(s);
+  renderListings();
+}
+
+// Location helpers
+function locationOf(l) {
+  const addr = (l.address || "").toLowerCase();
+  if (addr.includes("brookline") || addr.includes("chestnut hill")) return "brookline";
+  if (addr.includes("newton") || addr.includes("waban"))            return "newton";
+  if (addr.includes("wellesley"))                                    return "wellesley";
+  return "other";
 }
 
 // ── Fetch + render ─────────────────────────────────────────────────────────
@@ -312,15 +352,20 @@ function timeAgo(date) {
 // ── Filter ─────────────────────────────────────────────────────────────────
 function filterListings() {
   const dismissed = getDismissed();
+  const starred   = getStarred();
   const active = allListings.filter(l => !dismissed.has(l.id));
   const dis    = allListings.filter(l =>  dismissed.has(l.id));
   switch (activeFilter) {
-    case "priority":  return active.filter(l => l.priority_score > 0);
-    case "5br":       return active.filter(l => l.beds >= 5);
-    case "office":    return active.filter(l => l.beds === 4 && l.has_office);
-    case "under3m":   return active.filter(l => l.price < 3_000_000);
-    case "dismissed": return dis;
-    default:          return active;
+    case "starred":       return active.filter(l => starred.has(l.id));
+    case "priority":      return active.filter(l => l.priority_score > 0);
+    case "5br":           return active.filter(l => l.beds >= 5);
+    case "office":        return active.filter(l => l.beds === 4 && l.has_office);
+    case "under3m":       return active.filter(l => l.price < 3_000_000);
+    case "loc-brookline": return active.filter(l => locationOf(l) === "brookline");
+    case "loc-newton":    return active.filter(l => locationOf(l) === "newton");
+    case "loc-wellesley": return active.filter(l => locationOf(l) === "wellesley");
+    case "dismissed":     return dis;
+    default:              return active;
   }
 }
 
@@ -330,11 +375,13 @@ function renderListings() {
   const visible = filterListings();
 
   const dismissed = getDismissed();
+  const starred   = getStarred();
   const activeCount = allListings.filter(l => !dismissed.has(l.id)).length;
-  document.getElementById("stats-count").textContent =
-    `${visible.length} listing${visible.length !== 1 ? "s" : ""}` +
-    (activeFilter !== "dismissed" && activeCount !== visible.length ? ` of ${activeCount}` : "") +
-    (dismissed.size ? `  ·  ${dismissed.size} not a fit` : "");
+  const parts = [`${visible.length} listing${visible.length !== 1 ? "s" : ""}`];
+  if (activeFilter !== "dismissed" && activeCount !== visible.length) parts[0] += ` of ${activeCount}`;
+  if (starred.size)   parts.push(`${starred.size} ⭐`);
+  if (dismissed.size) parts.push(`${dismissed.size} not a fit`);
+  document.getElementById("stats-count").textContent = parts.join("  ·  ");
 
   if (!visible.length) {
     grid.innerHTML = `
@@ -355,6 +402,7 @@ function baths(b)  { return parseFloat(b).toString().replace(/\.0$/, ""); }
 
 function cardHTML(l) {
   const isPriority = l.priority_score > 0;
+  const isStarred  = getStarred().has(l.id);
 
   // Image
   const imgBlock = l.image_url
@@ -389,7 +437,7 @@ function cardHTML(l) {
   const altSection = altLinks ? `<span class="alt-links">Also: ${altLinks}</span>` : "";
 
   return `
-  <div class="card${isPriority ? " priority" : ""}">
+  <div class="card${isPriority ? " priority" : ""}${isStarred ? " starred" : ""}">
     ${imgBlock}
     <div class="card-body">
       ${badges ? `<div class="badges">${badges}</div>` : ""}
@@ -404,6 +452,9 @@ function cardHTML(l) {
       <div class="card-links">
         <a class="btn-primary" href="${esc(preferred_url)}" target="_blank">View on ${preferred_label}</a>
         ${altSection}
+        <button class="btn-star${isStarred ? " starred" : ""}" onclick="toggleStar('${esc(l.id)}')">
+          ${isStarred ? "⭐ Starred" : "☆ Star"}
+        </button>
         ${activeFilter === "dismissed"
           ? `<button class="btn-dismiss" onclick="restoreListing('${esc(l.id)}')">&#8593; Restore</button>`
           : `<button class="btn-dismiss" onclick="dismissListing('${esc(l.id)}')">&#128683; Not a fit</button>`
