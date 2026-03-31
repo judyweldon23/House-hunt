@@ -175,15 +175,21 @@ def scrape_redfin(
             else:
                 address = str(raw_addr)
             if not address:
-                # e.g. /MA/Brookline/Undisclosed-address-02445/home/123
+                # e.g. /MA/Brookline/16-Josselyn-Pl-02461/unit-16/home/123
+                # or   /MA/Brookline/Undisclosed-address-02445/home/123
                 parts = url_path.strip("/").split("/")
-                # parts[0]=MA, parts[1]=city, parts[2]=street-zip
                 if len(parts) >= 3:
                     city = parts[1].replace("-", " ")
                     state = parts[0]
-                    zip_match = re.search(r"(\d{5})$", parts[2])
+                    street_slug = parts[2]
+                    zip_match = re.search(r"(\d{5})", street_slug)
                     zip_code = zip_match.group(1) if zip_match else ""
-                    address = f"Undisclosed, {city}, {state} {zip_code}".strip()
+                    if "ndisclosed" in street_slug or "ndisclosed" in street_slug.lower():
+                        address = f"Undisclosed, {city}, {state} {zip_code}".strip()
+                    else:
+                        # Convert slug like "16-Josselyn-Pl-02461" → "16 Josselyn Pl"
+                        street = re.sub(r"-\d{5}$", "", street_slug).replace("-", " ")
+                        address = f"{street}, {city}, {state} {zip_code}".strip()
                 else:
                     address = "Undisclosed Address"
 
