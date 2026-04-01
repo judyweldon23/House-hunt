@@ -1,4 +1,5 @@
 """Central configuration loaded from environment variables."""
+# trigger scrape run
 import os
 from dotenv import load_dotenv
 
