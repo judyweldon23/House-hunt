@@ -1,42 +1,6 @@
 {
   "listings": [
     {
-      "id": "redfin_179809342",
-      "address": "16 Josselyn Pl, Newton Highlands, MA 02461",
-      "price": 2299000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 4100,
-      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/335/genMid.73480335_1.jpg",
-      "redfin_url": "https://www.redfin.com/MA/Newton-Highlands/16-Josselyn-Pl-02461/unit-16/home/179809342",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 30,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
-    },
-    {
-      "id": "redfin_11451419",
-      "address": "110 Avalon Rd, Waban, MA 02468",
-      "price": 2499000,
-      "beds": 5,
-      "baths": 5.5,
-      "sqft": 4607,
-      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/880/genMid.73473880_1.jpg",
-      "redfin_url": "https://www.redfin.com/MA/Waban/110-Avalon-Rd-02468/home/11451419",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 31,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
-    },
-    {
       "id": "redfin_11449471",
       "address": "62 Fuller St, Brookline, MA 02446",
       "price": 2599000,
@@ -52,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -70,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -88,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -106,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -124,43 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
-    },
-    {
-      "id": "redfin_11452404",
-      "address": "18 Moffat Rd, Waban, MA 02468",
-      "price": 2950000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 4370,
-      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/221/genMid.73480221_3.jpg",
-      "redfin_url": "https://www.redfin.com/MA/Waban/18-Moffat-Rd-02468/home/11452404",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 31,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
-    },
-    {
-      "id": "redfin_11450112",
-      "address": "1230 Commonwealth Ave, West Newton, MA 02465",
-      "price": 2999000,
-      "beds": 6,
-      "baths": 6.5,
-      "sqft": 6111,
-      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/391/genMid.73476391_0.jpg",
-      "redfin_url": "https://www.redfin.com/MA/West-Newton/1230-Commonwealth-Ave-02465/home/11450112",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 29,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -178,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -196,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11482774",
@@ -214,25 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
-    },
-    {
-      "id": "redfin_11437995",
-      "address": "447 Waban Ave, Waban, MA 02468",
-      "price": 2498000,
-      "beds": 4,
-      "baths": 3.0,
-      "sqft": 4836,
-      "image_url": "https://ssl.cdn-redfin.com/photo/52/mbpaddedwide/133/genMid.73492133_0.jpg",
-      "redfin_url": "https://www.redfin.com/MA/Waban/447-Waban-Ave-02468/home/11437995",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 33,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 0,
-      "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -250,7 +160,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -268,9 +178,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-03-31T19:02:01.176858+00:00"
+      "last_seen": "2026-04-01T00:57:37.984325+00:00"
     }
   ],
-  "last_updated": "2026-03-31T19:02:01.176858+00:00",
-  "total": 15
+  "last_updated": "2026-04-01T00:57:37.984325+00:00",
+  "total": 10
 }
