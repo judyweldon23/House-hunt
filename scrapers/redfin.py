@@ -15,6 +15,7 @@ BASE_URL = "https://www.redfin.com"
 GIS_URL = f"{BASE_URL}/stingray/api/gis"
 AUTOCOMPLETE_URL = f"{BASE_URL}/stingray/api/search/autocomplete"
 DETAILS_URL = f"{BASE_URL}/stingray/api/home/details/belowTheFold"
+ABOVE_FOLD_URL = f"{BASE_URL}/stingray/api/home/details/aboveTheFold"
 
 HEADERS = {
     "User-Agent": (
@@ -51,30 +52,35 @@ PAGE_HEADERS = {
 }
 
 
-def _fetch_listing_photo(url_path: str) -> Optional[str]:
-    """Get the main photo URL from the listing page og:image meta tag."""
-    if not url_path:
+def _fetch_listing_photo(property_id: str) -> Optional[str]:
+    """Fetch the main photo URL via Redfin's aboveTheFold JSON API."""
+    if not property_id:
         return None
     try:
         resp = requests.get(
-            f"{BASE_URL}{url_path}",
-            headers=PAGE_HEADERS,
-            timeout=15,
-            allow_redirects=True,
+            ABOVE_FOLD_URL,
+            params={"propertyId": property_id, "accessLevel": "1"},
+            headers=HEADERS,
+            timeout=10,
         )
-        if resp.status_code != 200:
-            logger.warning("Photo page returned %d for %s", resp.status_code, url_path)
-            return None
-        # og:image is the canonical main photo used by social/search crawlers
-        match = re.search(
-            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']'
-            r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-            resp.text,
+        resp.raise_for_status()
+        data = _parse_rf_json(resp.text)
+        payload = data.get("payload", {})
+        photos = (
+            payload.get("mediaBrowserInfo", {}).get("photos") or
+            payload.get("photos") or
+            []
         )
-        if match:
-            return match.group(1) or match.group(2)
+        if photos:
+            urls = photos[0].get("photoUrls", {})
+            return (
+                urls.get("fullScreen") or
+                urls.get("nonCroppedWide") or
+                urls.get("576") or
+                next(iter(urls.values()), None)
+            )
     except Exception as exc:
-        logger.debug("Photo fetch failed for %s: %s", url_path, exc)
+        logger.debug("aboveTheFold photo fetch failed for %s: %s", property_id, exc)
     return None
 
 
@@ -247,10 +253,10 @@ def scrape_redfin(
             if sqft and sqft < min_sqft:
                 continue
 
-            # Fetch main photo from listing page if GIS API didn't include one
-            if not image_url and url_path:
-                time.sleep(0.5)
-                image_url = _fetch_listing_photo(url_path)
+            # Fetch main photo via aboveTheFold API if GIS API didn't include one
+            if not image_url and property_id:
+                time.sleep(0.3)
+                image_url = _fetch_listing_photo(property_id)
                 if image_url:
                     logger.debug("Fetched photo for %s", address)
 
