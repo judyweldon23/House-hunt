@@ -66,21 +66,27 @@ def _fetch_listing_photo(property_id: str) -> Optional[str]:
         resp.raise_for_status()
         data = _parse_rf_json(resp.text)
         payload = data.get("payload", {})
+        logger.info("aboveTheFold payload keys for %s: %s", property_id, list(payload.keys()))
+        # Try several known response structures
         photos = (
             payload.get("mediaBrowserInfo", {}).get("photos") or
             payload.get("photos") or
+            payload.get("photoInfo", {}).get("photos") or
             []
         )
         if photos:
-            urls = photos[0].get("photoUrls", {})
+            first = photos[0]
+            logger.info("aboveTheFold first photo keys: %s", list(first.keys()) if isinstance(first, dict) else first)
+            urls = first.get("photoUrls", {}) if isinstance(first, dict) else {}
             return (
                 urls.get("fullScreen") or
                 urls.get("nonCroppedWide") or
                 urls.get("576") or
                 next(iter(urls.values()), None)
             )
+        logger.warning("aboveTheFold: no photos found for property %s", property_id)
     except Exception as exc:
-        logger.debug("aboveTheFold photo fetch failed for %s: %s", property_id, exc)
+        logger.warning("aboveTheFold photo fetch failed for %s: %s", property_id, exc)
     return None
 
 
@@ -198,7 +204,7 @@ def scrape_redfin(
             sample.get("price"), sample.get("beds"),
             sample.get("baths"), sample.get("sqFt"), sample.get("photoUrls"),
         )
-        logger.debug("Redfin GIS home keys: %s", list(sample.keys()))
+        logger.info("Redfin GIS home keys: %s", list(sample.keys()))
 
     for home in homes:
         try:
@@ -251,6 +257,10 @@ def scrape_redfin(
             if beds < min_beds or baths < min_baths:
                 continue
             if sqft and sqft < min_sqft:
+                continue
+            # Guard: reject listings outside Massachusetts
+            if address and ", MA " not in address and not address.endswith(", MA"):
+                logger.warning("Skipping non-MA listing: %s", address)
                 continue
 
             # Fetch main photo via aboveTheFold API if GIS API didn't include one

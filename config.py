@@ -21,16 +21,10 @@ SEARCH_CRITERIA = {
 # region_ids looked up at runtime via Redfin autocomplete; these are fallbacks.
 LOCATIONS = [
     {"name": "Brookline, MA",  "redfin_fallback_id": "36099", "redfin_region_type": 6},
-    # Newton searched by zip (region_type=5) — city-level ID unreliable without autocomplete.
-    # Covers: Newton Centre, Newtonville, Newton Highlands, Newton Lower Falls,
-    #         West Newton, Auburndale, Waban.
-    {"name": "Newton MA 02459", "redfin_fallback_id": "02459", "redfin_region_type": 5},
-    {"name": "Newton MA 02460", "redfin_fallback_id": "02460", "redfin_region_type": 5},
-    {"name": "Newton MA 02461", "redfin_fallback_id": "02461", "redfin_region_type": 5},
-    {"name": "Newton MA 02462", "redfin_fallback_id": "02462", "redfin_region_type": 5},
-    {"name": "Newton MA 02465", "redfin_fallback_id": "02465", "redfin_region_type": 5},
-    {"name": "Newton MA 02466", "redfin_fallback_id": "02466", "redfin_region_type": 5},
-    {"name": "Newton MA 02468", "redfin_fallback_id": "02468", "redfin_region_type": 5},
+    # Newton city — region_id 11619 from redfin.com/city/11619/MA/Newton
+    {"name": "Newton, MA",     "redfin_fallback_id": "11619", "redfin_region_type": 6},
+    # Waban kept as a separate search (confirmed working region_id)
+    {"name": "Waban, MA",      "redfin_fallback_id": "28762", "redfin_region_type": 6},
     {"name": "Wellesley, MA",  "redfin_fallback_id": "36180", "redfin_region_type": 6},
 ]
 

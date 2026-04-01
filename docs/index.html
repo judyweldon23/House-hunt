@@ -265,7 +265,9 @@ function restoreListing(id) {
   const d = getDismissed(); d.delete(id); saveDismissed(d); renderListings();
 }
 
-// Starred IDs persisted in localStorage
+// Starred IDs + cached listing data persisted in localStorage
+// We store the full listing so starred homes stay visible even if they
+// disappear from the current scrape results.
 function getStarred() {
   try { return new Set(JSON.parse(localStorage.getItem("starred-ids") || "[]")); }
   catch { return new Set(); }
@@ -273,10 +275,26 @@ function getStarred() {
 function saveStarred(set) {
   localStorage.setItem("starred-ids", JSON.stringify([...set]));
 }
+function getStarredCache() {
+  try { return JSON.parse(localStorage.getItem("starred-cache") || "{}"); }
+  catch { return {}; }
+}
+function saveStarredCache(map) {
+  localStorage.setItem("starred-cache", JSON.stringify(map));
+}
 function toggleStar(id) {
   const s = getStarred();
-  if (s.has(id)) s.delete(id); else s.add(id);
+  const cache = getStarredCache();
+  if (s.has(id)) {
+    s.delete(id);
+    delete cache[id];
+  } else {
+    s.add(id);
+    const l = allListings.find(x => x.id === id);
+    if (l) cache[id] = l;
+  }
   saveStarred(s);
+  saveStarredCache(cache);
   renderListings();
 }
 
@@ -356,7 +374,13 @@ function filterListings() {
   const active = allListings.filter(l => !dismissed.has(l.id));
   const dis    = allListings.filter(l =>  dismissed.has(l.id));
   switch (activeFilter) {
-    case "starred":       return active.filter(l => starred.has(l.id));
+    case "starred": {
+      const cache = getStarredCache();
+      const fromActive = active.filter(l => starred.has(l.id));
+      const activeIds = new Set(active.map(l => l.id));
+      const fromCache = Object.values(cache).filter(l => !activeIds.has(l.id));
+      return [...fromActive, ...fromCache];
+    }
     case "priority":      return active.filter(l => l.priority_score > 0);
     case "5br":           return active.filter(l => l.beds >= 5);
     case "office":        return active.filter(l => l.beds === 4 && l.has_office);
