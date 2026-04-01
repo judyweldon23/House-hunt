@@ -87,21 +87,22 @@ def _parse_rf_json(text: str) -> dict:
 
 def _lookup_region(location: str, fallback_id: str, fallback_type: int) -> dict:
     """Return {'region_id': str, 'region_type': int} for a location string."""
-    try:
-        resp = requests.get(
-            AUTOCOMPLETE_URL,
-            params={"location": location, "v": "2"},
-            headers=HEADERS,
-            timeout=10,
-        )
-        resp.raise_for_status()
-        data = _parse_rf_json(resp.text)
-        for section in data.get("payload", {}).get("sections", []):
-            for row in section.get("rows", []):
-                rtype = REGION_TYPE_MAP.get(row.get("type", ""), 6)
-                return {"region_id": str(row["id"]), "region_type": rtype}
-    except Exception as exc:
-        logger.warning("Redfin region lookup failed for '%s': %s", location, exc)
+    for v in ("2", "3"):
+        try:
+            resp = requests.get(
+                AUTOCOMPLETE_URL,
+                params={"location": location, "v": v},
+                headers=HEADERS,
+                timeout=10,
+            )
+            resp.raise_for_status()
+            data = _parse_rf_json(resp.text)
+            for section in data.get("payload", {}).get("sections", []):
+                for row in section.get("rows", []):
+                    rtype = REGION_TYPE_MAP.get(row.get("type", ""), 6)
+                    return {"region_id": str(row["id"]), "region_type": rtype}
+        except Exception as exc:
+            logger.warning("Redfin region lookup failed for '%s' (v=%s): %s", location, v, exc)
     return {"region_id": fallback_id, "region_type": fallback_type}
 
 

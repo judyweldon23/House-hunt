@@ -35,7 +35,7 @@ DEST_LON = -71.07438
 #   AVG_SPEED_MPH  — average urban/suburban speed before rush hour
 #   RUSH_HOUR_MULT — Boston 8 am traffic adds ~35% to free-flow time
 ROAD_FACTOR       = 1.4
-AVG_SPEED_MPH     = 28.0
+AVG_SPEED_MPH     = 38.0   # higher than pure urban (28) to account for Mass Pike / Rt-9 highway segments
 RUSH_HOUR_MULTIPLIER = 1.35
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
