@@ -1,6 +1,24 @@
 {
   "listings": [
     {
+      "id": "redfin_8974602",
+      "address": "7 Bemis Rd, Wellesley, MA 02481",
+      "price": 2399900,
+      "beds": 5,
+      "baths": 5.5,
+      "sqft": 4550,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/7-Bemis-Rd-02481/home/8974602",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 31,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
       "id": "redfin_11449471",
       "address": "62 Fuller St, Brookline, MA 02446",
       "price": 2599000,
@@ -11,12 +29,48 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/62-Fuller-St-02446/home/11449471",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 10,
+      "commute_minutes": 8,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_52169017",
+      "address": "Jim Wilson Rd, Indian Land, SC 29707",
+      "price": 2650000,
+      "beds": 5,
+      "baths": 5.5,
+      "sqft": 5000,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/SC/Indian-Land/Jim-Wilson-Rd-29707/home/52169017",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_8985709",
+      "address": "16 Oak St, Wellesley, MA 02482",
+      "price": 2695000,
+      "beds": 5,
+      "baths": 4.0,
+      "sqft": 4200,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/16-Oak-St-02482/home/8985709",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 35,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -29,12 +83,12 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/Undisclosed-address-02445/home/11507392",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 13,
+      "commute_minutes": 10,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -47,12 +101,12 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/84-Winthrop-Rd-02445/unit-1/home/196296414",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 12,
+      "commute_minutes": 9,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -65,12 +119,30 @@
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/34-Lagrange-St-02467/home/11497711",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 20,
+      "commute_minutes": 14,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_178376537",
+      "address": "365 Worcester St, Wellesley, MA 02481",
+      "price": 2899000,
+      "beds": 7,
+      "baths": 7.5,
+      "sqft": 7000,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/365-Worcester-St-02481/home/178376537",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 30,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -83,12 +155,30 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/140-Dudley-St-02445/home/11492872",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 14,
+      "commute_minutes": 10,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_8979005",
+      "address": "42 Edmunds Rd, Wellesley, MA 02481",
+      "price": 2995000,
+      "beds": 6,
+      "baths": 4.5,
+      "sqft": 5806,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/42-Edmunds-Rd-02481/home/8979005",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 32,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -101,12 +191,30 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/16-York-Ter-02446/home/11453556",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 11,
+      "commute_minutes": 8,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_8984039",
+      "address": "25 Longmeadow Rd, Wellesley, MA 02482",
+      "price": 3385000,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 4582,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/25-Longmeadow-Rd-02482/home/8984039",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 35,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -119,12 +227,12 @@
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/10-Hallwood-Rd-02467/home/11495037",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 20,
+      "commute_minutes": 14,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11482774",
@@ -137,12 +245,12 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/43-Druce-St-02445/home/11482774",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 14,
+      "commute_minutes": 10,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -155,12 +263,48 @@
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/1125-W-Roxbury-Pkwy-02467/home/11495183",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 20,
+      "commute_minutes": 14,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_8979761",
+      "address": "345 Linden St, Wellesley, MA 02481",
+      "price": 2695000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 4016,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/345-Linden-St-02481/home/8979761",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 33,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
+    },
+    {
+      "id": "redfin_8968591",
+      "address": "8 Tennyson Rd, Wellesley, MA 02481",
+      "price": 2890000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3515,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/8-Tennyson-Rd-02481/home/8968591",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 29,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -173,14 +317,14 @@
       "redfin_url": "https://www.redfin.com/MA/Brookline/36-Osborne-Rd-02446/home/11448388",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 9,
+      "commute_minutes": 7,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T01:07:15.756241+00:00"
+      "last_seen": "2026-04-01T01:31:50.275875+00:00"
     }
   ],
-  "last_updated": "2026-04-01T01:07:15.756241+00:00",
-  "total": 10
+  "last_updated": "2026-04-01T01:31:50.275875+00:00",
+  "total": 18
 }
