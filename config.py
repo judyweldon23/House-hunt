@@ -20,7 +20,7 @@ SEARCH_CRITERIA = {
 # region_ids looked up at runtime via Redfin autocomplete; these are fallbacks.
 LOCATIONS = [
     {"name": "Brookline, MA",  "redfin_fallback_id": "36099", "redfin_region_type": 6},
-    {"name": "Waban, MA",      "redfin_fallback_id": "28762", "redfin_region_type": 6},
+    {"name": "Newton, MA",     "redfin_fallback_id": "29761", "redfin_region_type": 6},
     {"name": "Wellesley, MA",  "redfin_fallback_id": "36180", "redfin_region_type": 6},
 ]
 
