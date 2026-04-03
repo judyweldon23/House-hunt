@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_196595703",
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_179809342",
@@ -52,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_200815407",
@@ -70,7 +70,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
+    },
+    {
+      "id": "redfin_178376536",
+      "address": "32 Lantern Ln, Wellesley, MA 02481",
+      "price": 2349999,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 4404,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/32-Lantern-Ln-02481/home/178376536",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 25,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8974602",
@@ -88,7 +106,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
+    },
+    {
+      "id": "redfin_8986204",
+      "address": "12 Leighton Rd, Wellesley, MA 02482",
+      "price": 2400000,
+      "beds": 8,
+      "baths": 3.0,
+      "sqft": 3994,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/12-Leighton-Rd-02482/home/8986204",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 35,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11451419",
@@ -106,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -124,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11449471",
@@ -142,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11461456",
@@ -160,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_201019642",
@@ -178,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11483486",
@@ -196,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8985709",
@@ -214,43 +250,43 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11507392",
-      "address": "Undisclosed, Brookline, MA 02445",
+      "address": "16 Kennard Rd, Brookline, MA 02445",
       "price": 2750000,
       "beds": 8,
-      "baths": 4.0,
-      "sqft": 0,
+      "baths": 5.5,
+      "sqft": 5076,
       "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Brookline/Undisclosed-address-02445/home/11507392",
+      "redfin_url": "https://www.redfin.com/MA/Brookline/16-Kennard-Rd-02445/home/11507392",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 10,
+      "commute_minutes": 9,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
-      "id": "redfin_11474572",
-      "address": "17 Lancaster Rd, Newton, MA 02458",
-      "price": 2795000,
+      "id": "redfin_11456474",
+      "address": "1806 Beacon St, Waban, MA 02468",
+      "price": 2750000,
       "beds": 5,
       "baths": 4.5,
-      "sqft": 4770,
+      "sqft": 4710,
       "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/17-Lancaster-Rd-02458/home/11474572",
+      "redfin_url": "https://www.redfin.com/MA/Waban/1806-Beacon-St-02468/home/11456474",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 17,
+      "commute_minutes": 25,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -268,7 +304,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
+    },
+    {
+      "id": "redfin_178376537",
+      "address": "365 Worcester St, Wellesley, MA 02481",
+      "price": 2799000,
+      "beds": 7,
+      "baths": 7.5,
+      "sqft": 7000,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/365-Worcester-St-02481/home/178376537",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 30,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -286,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11450112",
@@ -304,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_191875867",
@@ -322,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_198813537",
@@ -340,25 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
-    },
-    {
-      "id": "redfin_178376537",
-      "address": "365 Worcester St, Wellesley, MA 02481",
-      "price": 2899000,
-      "beds": 7,
-      "baths": 7.5,
-      "sqft": 7000,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Wellesley/365-Worcester-St-02481/home/178376537",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 30,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -366,7 +402,7 @@
       "price": 2940000,
       "beds": 5,
       "baths": 3.5,
-      "sqft": 4724,
+      "sqft": 3738,
       "image_url": null,
       "redfin_url": "https://www.redfin.com/MA/Brookline/140-Dudley-St-02445/home/11492872",
       "zillow_url": null,
@@ -376,7 +412,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11452404",
@@ -394,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11472413",
@@ -412,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11491003",
@@ -430,7 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -448,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -466,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11439039",
@@ -484,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11484194",
@@ -502,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -520,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11413298",
@@ -538,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -556,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11478836",
@@ -574,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8984039",
@@ -592,7 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -610,7 +646,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
+    },
+    {
+      "id": "redfin_11425451",
+      "address": "462 Waltham St, West Newton, MA 02465",
+      "price": 3399000,
+      "beds": 6,
+      "baths": 5.5,
+      "sqft": 6544,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/West-Newton/462-Waltham-St-02465/home/11425451",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 23,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11413269",
@@ -628,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11482774",
@@ -646,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_200906462",
@@ -664,7 +718,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11488944",
@@ -682,12 +736,12 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11437995",
       "address": "447 Waban Ave, Waban, MA 02468",
-      "price": 2498000,
+      "price": 2398000,
       "beds": 4,
       "baths": 3.0,
       "sqft": 4836,
@@ -700,7 +754,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -718,7 +772,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8979761",
@@ -736,7 +790,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_8968591",
@@ -754,7 +808,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11485560",
@@ -772,7 +826,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11430721",
@@ -790,7 +844,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_11485143",
@@ -808,7 +862,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -826,9 +880,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-01T14:29:07.562170+00:00"
+      "last_seen": "2026-04-03T14:01:17.903636+00:00"
     }
   ],
-  "last_updated": "2026-04-01T14:29:07.562170+00:00",
-  "total": 46
+  "last_updated": "2026-04-03T14:01:17.903636+00:00",
+  "total": 49
 }
