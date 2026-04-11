@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_196595703",
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_179809342",
@@ -52,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_178376536",
@@ -70,7 +70,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
+    },
+    {
+      "id": "redfin_11496905",
+      "address": "16 Alberta Rd, Chestnut Hill, MA 02467",
+      "price": 2395000,
+      "beds": 5,
+      "baths": 5.0,
+      "sqft": 4418,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/16-Alberta-Rd-02467/home/11496905",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 14,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8974602",
@@ -88,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8986204",
@@ -106,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11451419",
@@ -124,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -142,25 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
-    },
-    {
-      "id": "redfin_11449471",
-      "address": "62 Fuller St, Brookline, MA 02446",
-      "price": 2599000,
-      "beds": 6,
-      "baths": 3.0,
-      "sqft": 4605,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Brookline/62-Fuller-St-02446/home/11449471",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 8,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_172060108",
@@ -170,7 +170,7 @@
       "baths": 5.0,
       "sqft": 6700,
       "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newtonville/377-Walnut-St-02460/unit-1/home/172060108",
+      "redfin_url": "https://www.redfin.com/MA/Newtonville/377-Walnut-St-02460/home/11422497",
       "zillow_url": null,
       "compass_url": null,
       "commute_minutes": 20,
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11461456",
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_201019642",
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11483486",
@@ -232,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8985709",
@@ -250,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -268,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11456474",
@@ -286,7 +286,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
+    },
+    {
+      "id": "redfin_11472413",
+      "address": "327 Franklin St, Newton, MA 02458",
+      "price": 2780000,
+      "beds": 6,
+      "baths": 4.5,
+      "sqft": 5044,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/327-Franklin-St-02458/home/11472413",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 16,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -304,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_191875867",
@@ -322,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_178376537",
@@ -340,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11497711",
@@ -358,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11452404",
@@ -376,7 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11450112",
@@ -394,7 +412,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_198813537",
@@ -412,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11484591",
@@ -430,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -448,25 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
-    },
-    {
-      "id": "redfin_11472413",
-      "address": "327 Franklin St, Newton, MA 02458",
-      "price": 2980000,
-      "beds": 6,
-      "baths": 4.5,
-      "sqft": 5044,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/327-Franklin-St-02458/home/11472413",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 16,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11491003",
@@ -484,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -502,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11427100",
@@ -520,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -538,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11439039",
@@ -556,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11473415",
@@ -574,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8967185",
@@ -592,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11484194",
@@ -610,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -628,7 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11486740",
@@ -646,25 +646,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
-    },
-    {
-      "id": "redfin_11413298",
-      "address": "3 Cedar St, Newton Center, MA 02459",
-      "price": 3295000,
-      "beds": 5,
-      "baths": 5.5,
-      "sqft": 5296,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton-Center/3-Cedar-St-02459/home/11413298",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 19,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -682,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11478836",
@@ -700,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8984039",
@@ -718,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11495037",
@@ -736,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -754,7 +736,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
+    },
+    {
+      "id": "redfin_11499770",
+      "address": "476 Heath St, Chestnut Hill, MA 02467",
+      "price": 3490000,
+      "beds": 9,
+      "baths": 5.5,
+      "sqft": 6292,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/476-Heath-St-02467/home/11499770",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 14,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11413269",
@@ -772,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8980897",
@@ -790,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11492752",
@@ -808,7 +808,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
+    },
+    {
+      "id": "redfin_8970310",
+      "address": "144 Washington St, Wellesley, MA 02481",
+      "price": 3500000,
+      "beds": 5,
+      "baths": 5.5,
+      "sqft": 5800,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/144-Washington-St-02481/home/8970310",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 29,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_112898560",
@@ -826,7 +844,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_200906462",
@@ -844,7 +862,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11465112",
@@ -862,7 +880,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11488944",
@@ -880,7 +898,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8965965",
@@ -898,7 +916,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11437995",
@@ -911,12 +929,12 @@
       "redfin_url": "https://www.redfin.com/MA/Waban/447-Waban-Ave-02468/home/11437995",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 25,
+      "commute_minutes": 24,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11480588",
@@ -934,7 +952,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11495183",
@@ -952,25 +970,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
-    },
-    {
-      "id": "redfin_8979761",
-      "address": "345 Linden St, Wellesley, MA 02481",
-      "price": 2695000,
-      "beds": 4,
-      "baths": 3.5,
-      "sqft": 4016,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Wellesley/345-Linden-St-02481/home/8979761",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 33,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 0,
-      "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_8968591",
@@ -988,7 +988,25 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
+    },
+    {
+      "id": "redfin_11497431",
+      "address": "171 Shaw Rd, Chestnut Hill, MA 02467",
+      "price": 2998000,
+      "beds": 4,
+      "baths": 5.5,
+      "sqft": 4585,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/171-Shaw-Rd-02467/home/11497431",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 14,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11430721",
@@ -1006,7 +1024,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11485143",
@@ -1024,7 +1042,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_11485161",
@@ -1042,7 +1060,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -1060,9 +1078,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-09T14:54:17.360309+00:00"
+      "last_seen": "2026-04-11T13:54:15.981289+00:00"
     }
   ],
-  "last_updated": "2026-04-09T14:54:17.360309+00:00",
-  "total": 59
+  "last_updated": "2026-04-11T13:54:15.981289+00:00",
+  "total": 60
 }
