@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_196595703",
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_196757317",
@@ -52,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11457506",
@@ -70,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_179809342",
@@ -88,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_178376536",
@@ -106,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11496905",
@@ -119,12 +119,12 @@
       "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/16-Alberta-Rd-02467/home/11496905",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 14,
+      "commute_minutes": 15,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8986204",
@@ -142,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11461456",
@@ -160,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11451419",
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11461994",
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_172060108",
@@ -222,7 +222,7 @@
       "price": 2649000,
       "beds": 6,
       "baths": 5.0,
-      "sqft": 6700,
+      "sqft": 5757,
       "image_url": null,
       "redfin_url": "https://www.redfin.com/MA/Newtonville/377-Walnut-St-02460/home/11422497",
       "zillow_url": null,
@@ -232,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_201019642",
@@ -250,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11483486",
@@ -268,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8985709",
@@ -286,7 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -304,7 +304,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11463048",
+      "address": "78 Waban Hill Rd N, Chestnut Hill, MA 02467",
+      "price": 2750000,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 4694,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/78-Waban-Hill-Rd-N-02467/home/11463048",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 14,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11456474",
@@ -322,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11472413",
@@ -340,7 +358,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11484591",
+      "address": "8 White Ave, Chestnut Hill, MA 02467",
+      "price": 2795000,
+      "beds": 9,
+      "baths": 4.5,
+      "sqft": 4464,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/8-White-Ave-02467/home/11484591",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 15,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11474572",
@@ -358,7 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_196296414",
@@ -376,7 +412,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11469308",
+      "address": "36 Parker St, Newton Center, MA 02459",
+      "price": 2799000,
+      "beds": 6,
+      "baths": 5.0,
+      "sqft": 0,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton-Center/36-Parker-St-02459/home/11469308",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 18,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_191875867",
@@ -394,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_178376537",
@@ -412,25 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
-    },
-    {
-      "id": "redfin_11497711",
-      "address": "34 Lagrange St, Chestnut Hill, MA 02467",
-      "price": 2849500,
-      "beds": 5,
-      "baths": 3.5,
-      "sqft": 5076,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/34-Lagrange-St-02467/home/11497711",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 14,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11452404",
@@ -448,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11491003",
@@ -466,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_198813537",
@@ -484,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -502,25 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
-    },
-    {
-      "id": "redfin_11484591",
-      "address": "8 White Ave, Chestnut Hill, MA 02467",
-      "price": 2900000,
-      "beds": 9,
-      "baths": 4.5,
-      "sqft": 4464,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/8-White-Ave-02467/home/11484591",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 15,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -538,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -556,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8967185",
@@ -574,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11484194",
@@ -592,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8984039",
@@ -610,7 +628,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11447953",
+      "address": "100 Beals St, Brookline, MA 02446",
+      "price": 3295000,
+      "beds": 7,
+      "baths": 5.0,
+      "sqft": 4493,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Brookline/100-Beals-St-02446/home/11447953",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 7,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -628,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -646,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_177758031",
@@ -664,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11478836",
@@ -682,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11413269",
@@ -700,7 +736,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11474714",
+      "address": "81 Brackett Rd, Newton, MA 02458",
+      "price": 3350000,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 6260,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/81-Brackett-Rd-02458/home/11474714",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 17,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_18955746",
@@ -718,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -736,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_201409796",
@@ -754,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11492752",
@@ -772,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -790,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_112898560",
@@ -808,7 +862,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11488944",
@@ -826,7 +880,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_200906462",
@@ -844,7 +898,25 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_8982984",
+      "address": "79 Alba Rd, Wellesley, MA 02481",
+      "price": 2395000,
+      "beds": 4,
+      "baths": 4.0,
+      "sqft": 4676,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/79-Alba-Rd-02481/home/8982984",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 34,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11437995",
@@ -862,7 +934,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_8968591",
@@ -880,7 +952,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11497431",
@@ -898,7 +970,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11485296",
@@ -916,7 +988,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11477842",
@@ -934,25 +1006,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
-    },
-    {
-      "id": "redfin_11430721",
-      "address": "90 Auburndale Ave, West Newton, MA 02465",
-      "price": 3195000,
-      "beds": 4,
-      "baths": 3.5,
-      "sqft": 5290,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/West-Newton/90-Auburndale-Ave-02465/home/11430721",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 24,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 0,
-      "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11485143",
@@ -970,7 +1024,25 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
+    },
+    {
+      "id": "redfin_11624767",
+      "address": "90 Auburndale Ave, West Newton, MA 02465",
+      "price": 3195000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 5290,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/West-Newton/90-Auburndale-Ave-02465/home/11624767",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 24,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_11485161",
@@ -988,7 +1060,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     },
     {
       "id": "redfin_200665688",
@@ -1006,9 +1078,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-04-21T14:47:17.977464+00:00"
+      "last_seen": "2026-04-23T15:12:27.269649+00:00"
     }
   ],
-  "last_updated": "2026-04-21T14:47:17.977464+00:00",
-  "total": 56
+  "last_updated": "2026-04-23T15:12:27.269649+00:00",
+  "total": 60
 }
