@@ -1,22 +1,40 @@
 {
   "listings": [
     {
-      "id": "redfin_201503809",
-      "address": "723 Washington St, Newton, MA 02458",
-      "price": 2250000,
+      "id": "zillow_462483223",
+      "address": "23019 Stallion Ridge, San Antonio, TX 78255",
+      "price": 2200000,
       "beds": 5,
+      "baths": 6.0,
+      "sqft": 5740,
+      "image_url": "https://photos.zillowstatic.com/fp/7bf7cf595812f2205f26df797a50a63e-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/23019-Stallion-Rdg-San-Antonio-TX-78255/462483223_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "redfin_196757317",
+      "address": "11 Hampden St, Wellesley, MA 02482",
+      "price": 2250000,
+      "beds": 8,
       "baths": 5.0,
-      "sqft": 5132,
+      "sqft": 5559,
       "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/723-Washington-St-02458/home/201503809",
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/11-Hampden-St-02482/home/196757317",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 19,
+      "commute_minutes": 34,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11424643",
@@ -34,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -52,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11724492",
@@ -70,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11470661",
@@ -88,25 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
-    },
-    {
-      "id": "redfin_11475037",
-      "address": "9 Cotton St, Newton, MA 02458",
-      "price": 2480000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 3655,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/9-Cotton-St-02458/home/11475037",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 16,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11443130",
@@ -124,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11489751",
@@ -142,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_202047340",
@@ -160,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11446174",
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11443452",
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11474253",
@@ -232,25 +232,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
-      "id": "redfin_8985709",
-      "address": "16 Oak St, Wellesley, MA 02482",
-      "price": 2645000,
+      "id": "zillow_69634671",
+      "address": "2923 Rustlers Trail, San Antonio, TX 78245",
+      "price": 2600000,
       "beds": 5,
-      "baths": 4.0,
-      "sqft": 4200,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Wellesley/16-Oak-St-02482/home/8985709",
-      "zillow_url": null,
+      "baths": 7.0,
+      "sqft": 5737,
+      "image_url": "https://photos.zillowstatic.com/fp/ace83e546ec2ddb31b54bf018743ae3f-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/2923-Rustlers-Trl-San-Antonio-TX-78245/69634671_zpid/",
       "compass_url": null,
-      "commute_minutes": 35,
+      "commute_minutes": null,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11484591",
@@ -268,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -286,7 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_202135763",
@@ -304,7 +304,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8987609",
@@ -322,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11497431",
@@ -340,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11413438",
@@ -358,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_191875867",
@@ -376,7 +376,43 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "redfin_11491408",
+      "address": "112 Osborne Path, Newton Center, MA 02459",
+      "price": 2790000,
+      "beds": 5,
+      "baths": 5.5,
+      "sqft": 5360,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton-Center/112-Osborne-Path-02459/home/11491408",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 18,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_80041668",
+      "address": "15 Reynosa, San Antonio, TX 78261",
+      "price": 2795000,
+      "beds": 7,
+      "baths": 8.0,
+      "sqft": 8774,
+      "image_url": "https://photos.zillowstatic.com/fp/1d4e4ad4a70e03164e8ffb3c0d1bcccf-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/15-Reynosa-San-Antonio-TX-78261/80041668_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11452624",
@@ -394,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11499915",
@@ -412,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11724649",
@@ -430,7 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8984369",
@@ -448,25 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
-    },
-    {
-      "id": "redfin_11725419",
-      "address": "24 Radcliffe Rd, Wellesley, MA 02482",
-      "price": 2895000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 3773,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Wellesley/24-Radcliffe-Rd-02482/home/11725419",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 33,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -484,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11474714",
@@ -502,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11435204",
@@ -520,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11453435",
@@ -538,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11413269",
@@ -556,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_177758031",
@@ -574,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -592,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -610,7 +628,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_102529225",
+      "address": "19526 Terra Elm, San Antonio, TX 78255",
+      "price": 3195000,
+      "beds": 5,
+      "baths": 7.0,
+      "sqft": 7482,
+      "image_url": "https://photos.zillowstatic.com/fp/338015d725718a7578593bb23578e826-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/19526-Terra-Elm-San-Antonio-TX-78255/102529225_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8979317",
@@ -628,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11490505",
@@ -646,7 +682,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_102490777",
+      "address": "8730 Terra Gate, San Antonio, TX 78255",
+      "price": 3200000,
+      "beds": 5,
+      "baths": 7.0,
+      "sqft": 9080,
+      "image_url": "https://photos.zillowstatic.com/fp/1708be42e6954f42f091448136a3f2e8-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/8730-Terra-Gate-San-Antonio-TX-78255/102490777_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11478836",
@@ -664,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11447953",
@@ -682,7 +736,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -700,7 +754,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_18955746",
@@ -718,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11458103",
@@ -736,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11725543",
@@ -754,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11499770",
@@ -772,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11500884",
@@ -790,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_202036263",
@@ -808,7 +862,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11486484",
@@ -826,7 +880,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11491718",
@@ -844,7 +898,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -862,7 +916,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11459083",
@@ -880,7 +934,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_200906462",
@@ -898,25 +952,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
-    },
-    {
-      "id": "redfin_112898560",
-      "address": "405 Parker St, Newton Center, MA 02459",
-      "price": 2200000,
-      "beds": 4,
-      "baths": 4.5,
-      "sqft": 3630,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton-Center/405-Parker-St-02459/unit-405/home/112898560",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 19,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 0,
-      "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11499674",
@@ -934,7 +970,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11497342",
@@ -952,7 +988,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_202036196",
@@ -970,7 +1006,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11497759",
@@ -988,7 +1024,43 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_169369675",
+      "address": "23510 Avila Ridge, San Antonio, TX 78255",
+      "price": 2439000,
+      "beds": 4,
+      "baths": 5.0,
+      "sqft": 5430,
+      "image_url": "https://photos.zillowstatic.com/fp/a57f9fa64e0a5f5cbc316c1bf9f9d14b-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/23510-Avila-Rdg-San-Antonio-TX-78255/169369675_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_26168808",
+      "address": "3564 Mountain Loop, San Antonio, TX 78261",
+      "price": 2495000,
+      "beds": 4,
+      "baths": 4.0,
+      "sqft": 5593,
+      "image_url": "https://photos.zillowstatic.com/fp/3d346188095ae6c995b25c8c6ed28dc9-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/3564-Mountain-Loop-San-Antonio-TX-78261/26168808_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11490275",
@@ -1006,7 +1078,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_201628391",
@@ -1024,7 +1096,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11417332",
@@ -1042,7 +1114,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_8966408",
@@ -1060,7 +1132,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_201630070",
@@ -1078,7 +1150,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_137455723",
@@ -1096,7 +1168,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11485296",
@@ -1114,7 +1186,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11477842",
@@ -1132,7 +1204,25 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
+    },
+    {
+      "id": "zillow_169466110",
+      "address": "3915 El Chamizal, San Antonio, TX 78261",
+      "price": 3300000,
+      "beds": 4,
+      "baths": 5.0,
+      "sqft": 6531,
+      "image_url": "https://photos.zillowstatic.com/fp/c625aebd2fec58d0c1289a9c7650a634-p_e.jpg",
+      "redfin_url": null,
+      "zillow_url": "https://www.zillow.com/homedetails/3915-El-Chamizal-San-Antonio-TX-78261/169466110_zpid/",
+      "compass_url": null,
+      "commute_minutes": null,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "zillow",
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     },
     {
       "id": "redfin_11420742",
@@ -1150,9 +1240,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-07T14:51:17.321520+00:00"
+      "last_seen": "2026-06-09T15:53:51.300116+00:00"
     }
   ],
-  "last_updated": "2026-06-07T14:51:17.321520+00:00",
-  "total": 64
+  "last_updated": "2026-06-09T15:53:51.300116+00:00",
+  "total": 69
 }
