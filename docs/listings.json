@@ -16,7 +16,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_8963914",
+      "address": "319 Oakland St, Wellesley, MA 02481",
+      "price": 2270000,
+      "beds": 5,
+      "baths": 4.0,
+      "sqft": 4507,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/319-Oakland-St-02481/home/8963914",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 27,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11424643",
@@ -34,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -52,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11489751",
@@ -70,7 +88,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_11491017",
+      "address": "31 Kappius Path, Newton Center, MA 02459",
+      "price": 2450000,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 3806,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton-Center/31-Kappius-Path-02459/home/11491017",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 18,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_202047340",
@@ -88,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11443452",
@@ -106,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11443130",
@@ -124,7 +160,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_190007167",
+      "address": "52 54 Rangeley Rd, Newton, MA 02465",
+      "price": 2499000,
+      "beds": 5,
+      "baths": 5.0,
+      "sqft": 3815,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/52-54-Rangeley-Rd-02465/home/190007167",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 23,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11500130",
@@ -142,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11446174",
@@ -160,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11507392",
@@ -178,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11484591",
@@ -196,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -214,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_202135763",
@@ -232,7 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8987609",
@@ -250,7 +304,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11497431",
@@ -268,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_191875867",
@@ -286,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11499915",
@@ -304,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11413438",
@@ -322,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11452624",
@@ -340,7 +394,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_11438359",
+      "address": "45 Clearwater Rd, Newton Lower Falls, MA 02462",
+      "price": 2850000,
+      "beds": 6,
+      "baths": 5.5,
+      "sqft": 3954,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton-Lower-Falls/45-Clearwater-Rd-02462/home/11438359",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 28,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11435204",
@@ -358,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8984369",
@@ -376,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11440805",
@@ -394,7 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8979005",
@@ -412,25 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
-    },
-    {
-      "id": "redfin_11474714",
-      "address": "81 Brackett Rd, Newton, MA 02458",
-      "price": 2900000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 6260,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/81-Brackett-Rd-02458/home/11474714",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 17,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11425413",
@@ -448,7 +502,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_8981547",
+      "address": "10 Colgate Rd, Wellesley, MA 02482",
+      "price": 2950000,
+      "beds": 6,
+      "baths": 4.5,
+      "sqft": 4475,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/10-Colgate-Rd-02482/home/8981547",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 34,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11453435",
@@ -466,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11413269",
@@ -484,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -502,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11453556",
@@ -520,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_177758031",
@@ -538,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -556,7 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11453221",
@@ -574,7 +646,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8979317",
@@ -592,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11490505",
@@ -610,12 +682,12 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11478836",
       "address": "89 Parker Ave, Newton Highlands, MA 02461",
-      "price": 3280000,
+      "price": 3248000,
       "beds": 6,
       "baths": 5.5,
       "sqft": 5500,
@@ -628,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11447953",
@@ -646,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -664,7 +736,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8981348",
@@ -682,7 +754,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_177540898",
@@ -690,7 +762,7 @@
       "price": 3300000,
       "beds": 6,
       "baths": 6.5,
-      "sqft": 6585,
+      "sqft": 8000,
       "image_url": null,
       "redfin_url": "https://www.redfin.com/MA/Newton-Centre/32-Chesley-Rd-02459/home/177540898",
       "zillow_url": null,
@@ -700,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11492038",
@@ -718,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_177814117",
@@ -736,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_18955746",
@@ -754,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11458103",
@@ -772,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11499770",
@@ -790,7 +862,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11500884",
@@ -808,7 +880,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_178660477",
@@ -826,7 +898,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11484629",
@@ -844,15 +916,15 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_202036263",
       "address": "67 Van Roosen Rd, Newton, MA 02459",
       "price": 3495000,
-      "beds": 5,
+      "beds": 6,
       "baths": 6.5,
-      "sqft": 5909,
+      "sqft": 6404,
       "image_url": null,
       "redfin_url": "https://www.redfin.com/MA/Newton/67-Van-Roosen-Rd-02459/home/202036263",
       "zillow_url": null,
@@ -862,7 +934,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11486484",
@@ -880,7 +952,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11477792",
@@ -898,7 +970,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_11427625",
+      "address": "49 Shaw St, West Newton, MA 02465",
+      "price": 3500000,
+      "beds": 6,
+      "baths": 5.5,
+      "sqft": 6478,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/West-Newton/49-Shaw-St-02465/home/11427625",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 23,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -916,7 +1006,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11499674",
@@ -934,7 +1024,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11490275",
@@ -952,7 +1042,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_202036196",
@@ -970,7 +1060,43 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_8976927",
+      "address": "10 Kirkland Cir, Wellesley, MA 02481",
+      "price": 2395000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3610,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/10-Kirkland-Cir-02481/home/8976927",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 32,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
+    },
+    {
+      "id": "redfin_202369121",
+      "address": "129 Jewett St, Newton, MA 02458",
+      "price": 2495000,
+      "beds": 4,
+      "baths": 5.5,
+      "sqft": 4770,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/129-Jewett-St-02458/unit-1/home/202369121",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 17,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_8966408",
@@ -988,7 +1114,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_201628391",
@@ -1006,7 +1132,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11417332",
@@ -1024,7 +1150,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_137455723",
@@ -1042,7 +1168,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11462942",
@@ -1060,7 +1186,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_201630070",
@@ -1078,7 +1204,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_202235816",
@@ -1096,7 +1222,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11477842",
@@ -1114,7 +1240,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11485296",
@@ -1132,7 +1258,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_147156876",
@@ -1150,7 +1276,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11500525",
@@ -1168,7 +1294,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     },
     {
       "id": "redfin_11420742",
@@ -1186,9 +1312,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-06-23T15:47:03.767769+00:00"
+      "last_seen": "2026-06-25T15:40:31.469456+00:00"
     }
   ],
-  "last_updated": "2026-06-23T15:47:03.767769+00:00",
-  "total": 66
+  "last_updated": "2026-06-25T15:40:31.469456+00:00",
+  "total": 73
 }
