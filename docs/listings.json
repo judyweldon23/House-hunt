@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_202047340",
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11491017",
@@ -52,25 +52,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
-      "id": "redfin_11440805",
-      "address": "379 Central St, Auburndale, MA 02466",
-      "price": 2295000,
+      "id": "redfin_11448076",
+      "address": "40 Columbus St, Newton, MA 02461",
+      "price": 2299000,
       "beds": 8,
-      "baths": 4.5,
-      "sqft": 5822,
+      "baths": 4.0,
+      "sqft": 5674,
       "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Auburndale/379-Central-St-02466/home/11440805",
+      "redfin_url": "https://www.redfin.com/MA/Newton/40-Columbus-St-02461/home/11448076",
       "zillow_url": null,
       "compass_url": null,
-      "commute_minutes": 27,
+      "commute_minutes": 21,
       "commute_is_estimate": true,
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11424643",
@@ -88,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11500130",
@@ -106,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -124,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11472479",
@@ -142,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11489751",
@@ -160,7 +160,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
+    },
+    {
+      "id": "redfin_11456232",
+      "address": "8 Manitoba Rd, Waban, MA 02468",
+      "price": 2399000,
+      "beds": 6,
+      "baths": 4.0,
+      "sqft": 4334,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Waban/8-Manitoba-Rd-02468/home/11456232",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 24,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_190007167",
@@ -178,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11432240",
@@ -196,7 +214,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
+    },
+    {
+      "id": "redfin_11483841",
+      "address": "56 Cynthia Rd, Newton, MA 02459",
+      "price": 2495000,
+      "beds": 6,
+      "baths": 4.5,
+      "sqft": 7794,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/56-Cynthia-Rd-02459/home/11483841",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 18,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11443130",
@@ -214,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11446174",
@@ -232,7 +268,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
+    },
+    {
+      "id": "redfin_189954134",
+      "address": "105 Colbourne Cres, Brookline, MA 02445",
+      "price": 2500000,
+      "beds": 7,
+      "baths": 3.0,
+      "sqft": 3948,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Brookline/105-Colbourne-Cres-02445/home/189954134",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 9,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -250,25 +304,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
-    },
-    {
-      "id": "redfin_202135763",
-      "address": "19 21 Maple Park, Newton, MA 02459",
-      "price": 2698000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 4250,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/19-21-Maple-Park-02459/unit-21/home/202135763",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 18,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11465986",
@@ -286,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11497431",
@@ -304,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11499915",
@@ -322,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8984369",
@@ -340,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11473791",
@@ -358,25 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
-    },
-    {
-      "id": "redfin_11483841",
-      "address": "56 Cynthia Rd, Newton, MA 02459",
-      "price": 2850000,
-      "beds": 6,
-      "baths": 4.5,
-      "sqft": 7794,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/56-Cynthia-Rd-02459/home/11483841",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 18,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11425413",
@@ -394,7 +412,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11435204",
@@ -412,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11450952",
@@ -430,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8980060",
@@ -448,7 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -466,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -484,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_177814117",
@@ -502,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11458103",
@@ -520,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8979317",
@@ -538,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11478836",
@@ -556,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11444468",
@@ -574,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -592,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11466549",
@@ -610,7 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11447953",
@@ -628,7 +646,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8990364",
@@ -646,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11492038",
@@ -664,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_54576160",
@@ -682,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_18955746",
@@ -700,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11499770",
@@ -718,7 +736,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11500884",
@@ -736,7 +754,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_178660477",
@@ -754,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11486484",
@@ -772,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11484629",
@@ -790,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11469470",
@@ -808,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11477792",
@@ -826,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -844,7 +862,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8979507",
@@ -862,7 +880,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11490275",
@@ -880,7 +898,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_202036196",
@@ -898,7 +916,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8966408",
@@ -916,7 +934,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_201628391",
@@ -934,7 +952,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_202369121",
@@ -952,7 +970,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_11417332",
@@ -970,7 +988,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_201630070",
@@ -988,7 +1006,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_202235816",
@@ -1006,7 +1024,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_182600176",
@@ -1024,7 +1042,43 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
+    },
+    {
+      "id": "redfin_21472531",
+      "address": "28 Kesseler Way, Chestnut Hill, MA 02467",
+      "price": 2999900,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 4571,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/28-Kesseler-Way-02467/home/21472531",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 14,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
+    },
+    {
+      "id": "redfin_8972267",
+      "address": "23 Wareland Rd, Wellesley, MA 02481",
+      "price": 3050000,
+      "beds": 4,
+      "baths": 5.0,
+      "sqft": 6006,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/23-Wareland-Rd-02481/home/8972267",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 30,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 0,
+      "source": "redfin",
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     },
     {
       "id": "redfin_8975855",
@@ -1042,27 +1096,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
-    },
-    {
-      "id": "redfin_21472531",
-      "address": "28 Kesseler Way, Chestnut Hill, MA 02467",
-      "price": 3299999,
-      "beds": 4,
-      "baths": 3.5,
-      "sqft": 4571,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Chestnut-Hill/28-Kesseler-Way-02467/home/21472531",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 14,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 0,
-      "source": "redfin",
-      "last_seen": "2026-08-11T14:17:33.408840+00:00"
+      "last_seen": "2026-08-13T14:21:41.741413+00:00"
     }
   ],
-  "last_updated": "2026-08-11T14:17:33.408840+00:00",
-  "total": 59
+  "last_updated": "2026-08-13T14:21:41.741413+00:00",
+  "total": 61
 }
