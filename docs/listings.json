@@ -16,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_202047340",
@@ -34,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11491017",
@@ -52,7 +52,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
+    },
+    {
+      "id": "redfin_11472479",
+      "address": "8 Hollis St, Newton, MA 02458",
+      "price": 2295000,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 3899,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/8-Hollis-St-02458/home/11472479",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 17,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11448076",
@@ -70,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11424643",
@@ -88,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11500130",
@@ -106,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -124,25 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
-    },
-    {
-      "id": "redfin_11472479",
-      "address": "8 Hollis St, Newton, MA 02458",
-      "price": 2395000,
-      "beds": 5,
-      "baths": 4.5,
-      "sqft": 3899,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/8-Hollis-St-02458/home/11472479",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 17,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11489751",
@@ -160,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_190007167",
@@ -178,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11432240",
@@ -196,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11483841",
@@ -214,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11443130",
@@ -232,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11446174",
@@ -250,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_189954134",
@@ -268,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -286,7 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11465986",
@@ -304,7 +304,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
+    },
+    {
+      "id": "redfin_11467710",
+      "address": "16 Harris St, Brookline, MA 02446",
+      "price": 2700000,
+      "beds": 6,
+      "baths": 3.0,
+      "sqft": 4281,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Brookline/16-Harris-St-02446/home/11467710",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 7,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11438359",
@@ -322,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8984369",
@@ -340,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11473791",
@@ -358,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11425413",
@@ -376,7 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11435204",
@@ -394,7 +412,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11450952",
@@ -412,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8980060",
@@ -430,7 +448,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
+    },
+    {
+      "id": "redfin_204650102",
+      "address": "9 Morseland Ave, Newton, MA 02459",
+      "price": 2998000,
+      "beds": 5,
+      "baths": 4.5,
+      "sqft": 4000,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Newton/9-Morseland-Ave-02459/home/204650102",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 18,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_18955746",
@@ -448,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11425451",
@@ -466,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8972267",
@@ -484,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11490680",
@@ -502,7 +538,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -520,7 +556,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_177814117",
@@ -538,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_177540898",
@@ -556,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11458103",
@@ -574,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8979317",
@@ -592,25 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
-    },
-    {
-      "id": "redfin_11478836",
-      "address": "89 Parker Ave, Newton, MA 02461",
-      "price": 3248000,
-      "beds": 6,
-      "baths": 5.5,
-      "sqft": 5500,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/89-Parker-Ave-02461/home/11478836",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 20,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11444468",
@@ -628,7 +646,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11466549",
@@ -646,25 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
-    },
-    {
-      "id": "redfin_11447953",
-      "address": "100 Beals St, Brookline, MA 02446",
-      "price": 3295000,
-      "beds": 7,
-      "baths": 5.0,
-      "sqft": 4493,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Brookline/100-Beals-St-02446/home/11447953",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 7,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8990364",
@@ -682,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11492038",
@@ -700,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_54576160",
@@ -718,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11451369",
@@ -736,7 +736,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11454430",
@@ -754,7 +754,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11500884",
@@ -772,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_178660477",
@@ -790,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11486484",
@@ -808,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11484629",
@@ -826,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11469470",
@@ -844,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -862,7 +862,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8979507",
@@ -880,7 +880,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11490275",
@@ -898,7 +898,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_202036196",
@@ -916,7 +916,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_8966408",
@@ -934,7 +934,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_201628391",
@@ -952,7 +952,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_202369121",
@@ -970,7 +970,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_11417332",
@@ -988,7 +988,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_201630070",
@@ -1006,7 +1006,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_202235816",
@@ -1024,7 +1024,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_182600176",
@@ -1042,7 +1042,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     },
     {
       "id": "redfin_21472531",
@@ -1060,9 +1060,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-08-19T13:40:46.761319+00:00"
+      "last_seen": "2026-08-21T13:41:51.348024+00:00"
     }
   ],
-  "last_updated": "2026-08-19T13:40:46.761319+00:00",
+  "last_updated": "2026-08-21T13:41:51.348024+00:00",
   "total": 59
 }
