@@ -1,24 +1,6 @@
 {
   "listings": [
     {
-      "id": "redfin_11461872",
-      "address": "26 Parkway Rd, Brookline, MA 02445",
-      "price": 2200000,
-      "beds": 9,
-      "baths": 3.0,
-      "sqft": 4364,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Brookline/26-Parkway-Rd-02445/home/11461872",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 6,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
-    },
-    {
       "id": "redfin_196757317",
       "address": "11 Hampden St, Wellesley, MA 02482",
       "price": 2250000,
@@ -34,7 +16,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_202047340",
@@ -52,7 +34,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11483959",
@@ -70,7 +52,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11491017",
@@ -88,7 +70,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11424643",
@@ -106,7 +88,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11411156",
@@ -124,7 +106,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11432240",
@@ -142,7 +124,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11500130",
@@ -160,7 +142,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8962561",
@@ -178,7 +160,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11489751",
@@ -196,7 +178,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11456232",
@@ -214,7 +196,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11483841",
@@ -232,7 +214,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11446174",
@@ -250,7 +232,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11463252",
@@ -268,7 +250,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_205280629",
@@ -286,7 +268,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_189954134",
@@ -304,25 +286,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
-    },
-    {
-      "id": "redfin_196577821",
-      "address": "321 Lake Ave, Newton, MA 02461",
-      "price": 2595000,
-      "beds": 5,
-      "baths": 5.0,
-      "sqft": 4205,
-      "image_url": null,
-      "redfin_url": "https://www.redfin.com/MA/Newton/321-Lake-Ave-02461/unit-321/home/205405002",
-      "zillow_url": null,
-      "compass_url": null,
-      "commute_minutes": 20,
-      "commute_is_estimate": true,
-      "has_office": false,
-      "priority_score": 2,
-      "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11422704",
@@ -340,7 +304,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11465986",
@@ -358,7 +322,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11492872",
@@ -376,7 +340,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_205363475",
@@ -394,7 +358,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11438359",
@@ -412,7 +376,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11499915",
@@ -430,7 +394,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8984369",
@@ -448,7 +412,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11473791",
@@ -466,7 +430,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_201488545",
@@ -484,7 +448,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11435204",
@@ -502,7 +466,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11475127",
@@ -520,7 +484,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11450952",
@@ -538,7 +502,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_188533845",
@@ -556,7 +520,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11458103",
@@ -574,7 +538,25 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
+    },
+    {
+      "id": "redfin_8972267",
+      "address": "23 Wareland Rd, Wellesley, MA 02481",
+      "price": 3050000,
+      "beds": 5,
+      "baths": 5.0,
+      "sqft": 6006,
+      "image_url": null,
+      "redfin_url": "https://www.redfin.com/MA/Wellesley/23-Wareland-Rd-02481/home/8972267",
+      "zillow_url": null,
+      "compass_url": null,
+      "commute_minutes": 30,
+      "commute_is_estimate": true,
+      "has_office": false,
+      "priority_score": 2,
+      "source": "redfin",
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11444468",
@@ -592,7 +574,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11498708",
@@ -610,7 +592,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11489565",
@@ -628,7 +610,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11475471",
@@ -646,7 +628,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_177814117",
@@ -664,7 +646,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11466549",
@@ -682,7 +664,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_177540898",
@@ -700,7 +682,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_54576160",
@@ -718,7 +700,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8981348",
@@ -736,7 +718,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11490505",
@@ -754,7 +736,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11482275",
@@ -772,7 +754,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11420742",
@@ -790,7 +772,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11725543",
@@ -808,7 +790,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11500884",
@@ -826,7 +808,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8990364",
@@ -844,7 +826,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11492038",
@@ -862,7 +844,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11451369",
@@ -880,7 +862,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11454430",
@@ -898,7 +880,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11486484",
@@ -916,7 +898,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_178660477",
@@ -934,7 +916,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8970310",
@@ -952,7 +934,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11491711",
@@ -970,7 +952,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11484629",
@@ -988,7 +970,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11484452",
@@ -1006,7 +988,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_205463062",
@@ -1024,7 +1006,7 @@
       "has_office": false,
       "priority_score": 2,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8979507",
@@ -1042,7 +1024,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_201628391",
@@ -1060,7 +1042,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_202036196",
@@ -1078,7 +1060,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11497759",
@@ -1096,7 +1078,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_201630070",
@@ -1114,7 +1096,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_202369121",
@@ -1132,7 +1114,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_8979009",
@@ -1150,7 +1132,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11417332",
@@ -1168,7 +1150,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11445239",
@@ -1186,7 +1168,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11428841",
@@ -1204,7 +1186,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_11485296",
@@ -1222,7 +1204,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_182600176",
@@ -1240,7 +1222,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_204650102",
@@ -1258,7 +1240,7 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     },
     {
       "id": "redfin_21472531",
@@ -1276,9 +1258,9 @@
       "has_office": false,
       "priority_score": 0,
       "source": "redfin",
-      "last_seen": "2026-09-11T16:53:49.696691+00:00"
+      "last_seen": "2026-09-13T16:49:09.548261+00:00"
     }
   ],
-  "last_updated": "2026-09-11T16:53:49.696691+00:00",
-  "total": 71
+  "last_updated": "2026-09-13T16:49:09.548261+00:00",
+  "total": 70
 }
